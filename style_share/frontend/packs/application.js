@@ -1,3 +1,3 @@
-import "./application.pcss";
-
-document.body.insertAdjacentHTML("afterbegin", "Webpacker works!")
+import "init";
+import "components/page/page";
+import "components/auth-form/auth-form";

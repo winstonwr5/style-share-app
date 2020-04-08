@@ -1,0 +1,1 @@
+{"ast":null,"code":"import \"init\";\nimport \"components/page/page\";","map":{"version":3,"sources":["/Users/winston/Desktop/style-share-app/style_share/frontend/packs/application.js"],"names":[],"mappings":"AAAA,OAAO,MAAP;AACA,OAAO,sBAAP","sourcesContent":["import \"init\";\nimport \"components/page/page\";\n"]},"metadata":{},"sourceType":"module"}
