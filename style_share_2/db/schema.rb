@@ -10,16 +10,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_04_10_205149) do
+ActiveRecord::Schema.define(version: 2020_04_10_210028) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
-
-  create_table "drawings", force: :cascade do |t|
-    t.string "artist"
-    t.string "description"
-    t.text "code"
-  end
 
   create_table "sketches", force: :cascade do |t|
     t.string "artist"
