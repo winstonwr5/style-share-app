@@ -37,7 +37,7 @@ class SketchesController < ApplicationController
         @sketch.destroy
         redirect_to sketches_url
     end
-    
+
     private
 
     def authenticate

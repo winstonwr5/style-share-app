@@ -1,0 +1,20 @@
+<div class="container">
+
+  <h3><%= @sketch.title %></h3>
+
+  <small><%= @sketch.description %></small>
+
+  <div class="box-code">
+    <%= @sketch.code.html_safe %>
+  </div>
+
+  <br>
+  <div id="sketch-canvas">
+    <script><%= (@sketch.code).html_safe %></script>
+  </div>
+  <br>
+
+  <small><%= link_to "Edit", edit_sketch_path(@sketch) %></small>
+  <small><%= link_to "Delete", @sketch, method: :delete %></small>
+
+</div>
