@@ -4,7 +4,7 @@
 
   <%= form_for :resolution, url: pages_show_path do |f| %>
     <%= f.select :res_string, options_for_select([["1024x768"],["800x600"],["640x480"]]) %>
-    <%= f.submit "Reload" %>
+    <%= f.submit "Change" %>
   <% end %>
 
   <p id="canvas-size"></p>
