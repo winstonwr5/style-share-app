@@ -1,4 +1,4 @@
-class SketchController < ApplicationController
+class SketchesController < ApplicationController
     before_action :authenticate
 
     def show
