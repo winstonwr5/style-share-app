@@ -1,0 +1,23 @@
+<%= form_for(sketch) do |f| %>
+
+    <div class="sketch-form">
+        <ul>
+            <li>
+                <%= f.label :artist %>
+                <%= f.text_field :artist %>
+            </li>
+            <li>
+                <%= f.label :description %>
+                <%= f.text_field :description %>
+            </li>
+            <li>
+                <%= f.label :code %>
+                <%= f.text_area :code %>
+            </li>
+            <li>
+                <%= f.button %>
+            </li>
+        </ul>
+
+    </div>
+<% end %>

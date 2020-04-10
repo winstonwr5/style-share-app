@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>StyleShare2</title>
+    <title>StyleShare</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -10,6 +10,22 @@
   </head>
 
   <body>
-    <%= yield %>
+      <section id="navbar">
+      <div class="navbar-top">
+        <div class="navbar-brand">
+           <h1><%= link_to "Sketches", sketches_path %></h1>
+        </div>
+        <div class="navbar-links">
+          <ul>
+            <li><%= link_to "Sample Sketch", root_path %></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="main-container">
+        <%= yield %>
+    </section>
+     
   </body>
 </html>
