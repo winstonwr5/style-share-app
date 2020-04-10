@@ -218,3 +218,217 @@ puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
 puma (4.3.3) lib/puma/server.rb:472:in `process_client'
 puma (4.3.3) lib/puma/server.rb:328:in `block in run'
 puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for ::1 at 2020-04-09 12:30:16 -0400
+Processing by SketchController#show as HTML
+Redirected to http://localhost:5000/login
+Filter chain halted as :authenticate rendered or redirected
+Completed 302 Found in 109ms (ActiveRecord: 0.0ms | Allocations: 372)
+
+
+Started GET "/login" for ::1 at 2020-04-09 12:30:20 -0400
+Processing by AuthController#new as HTML
+  Rendering auth/new.html.erb within layouts/application
+  Rendered frontend/components/auth-form/_auth-form.html.erb (Duration: 51.8ms | Allocations: 392)
+  Rendered frontend/components/page/_page.html.erb (Duration: 65.8ms | Allocations: 695)
+  Rendered auth/new.html.erb within layouts/application (Duration: 91.7ms | Allocations: 1028)
+Completed 200 OK in 432ms (Views: 313.9ms | ActiveRecord: 0.0ms | Allocations: 3662)
+
+
+Started GET "/login" for ::1 at 2020-04-09 13:47:40 -0400
+Processing by AuthController#new as HTML
+  Rendering auth/new.html.erb within layouts/application
+  Rendered frontend/components/auth-form/_auth-form.html.erb (Duration: 40.0ms | Allocations: 365)
+  Rendered frontend/components/page/_page.html.erb (Duration: 49.5ms | Allocations: 665)
+  Rendered auth/new.html.erb within layouts/application (Duration: 82.2ms | Allocations: 993)
+Completed 200 OK in 302ms (Views: 215.2ms | ActiveRecord: 0.0ms | Allocations: 3606)
+
+
+Started GET "/login" for ::1 at 2020-04-09 17:19:33 -0400
+Processing by AuthController#new as HTML
+  Rendering auth/new.html.erb within layouts/application
+  Rendered frontend/components/auth-form/_auth-form.html.erb (Duration: 52.6ms | Allocations: 365)
+  Rendered frontend/components/page/_page.html.erb (Duration: 64.2ms | Allocations: 664)
+  Rendered auth/new.html.erb within layouts/application (Duration: 118.1ms | Allocations: 992)
+Completed 200 OK in 403ms (Views: 301.8ms | ActiveRecord: 0.0ms | Allocations: 3612)
+
+
+Started GET "/login" for ::1 at 2020-04-09 18:14:31 -0400
+Processing by AuthController#new as HTML
+  Rendering auth/new.html.erb within layouts/application
+  Rendered frontend/components/auth-form/_auth-form.html.erb (Duration: 46.5ms | Allocations: 368)
+  Rendered frontend/components/page/_page.html.erb (Duration: 82.3ms | Allocations: 666)
+  Rendered auth/new.html.erb within layouts/application (Duration: 117.9ms | Allocations: 990)
+[Webpacker] Compiling...
+Started GET "/login" for ::1 at 2020-04-09 19:05:09 -0400
+Processing by AuthController#new as HTML
+  Rendering auth/new.html.erb within layouts/application
+  Rendered frontend/components/auth-form/_auth-form.html.erb (Duration: 4.8ms | Allocations: 416)
+  Rendered frontend/components/page/_page.html.erb (Duration: 12.4ms | Allocations: 727)
+  Rendered auth/new.html.erb within layouts/application (Duration: 23.3ms | Allocations: 1179)
+Completed 200 OK in 88ms (Views: 58.0ms | ActiveRecord: 0.0ms | Allocations: 4524)
+
+
+Started POST "/login" for ::1 at 2020-04-09 19:05:30 -0400
+Processing by AuthController#create as HTML
+  Parameters: {"authenticity_token"=>"X84gw3dcFNOpKXlHeTNORvoz4dLOXOOorNrIJ5gV3GAXFgkWMefSS1puvkh8+ghnybJCMNyJVUe2eRK81ihVmA==", "username"=>"WardHeck", "commit"=>"Confirm"}
+Redirected to http://localhost:5000/
+Completed 302 Found in 22ms (ActiveRecord: 0.0ms | Allocations: 865)
+
+
+Started GET "/" for ::1 at 2020-04-09 19:05:30 -0400
+Processing by SketchController#show as HTML
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.0ms | Allocations: 2393)
+
+
+  
+NameError (uninitialized constant SketchController::Sketch):
+  
+app/controllers/sketch_controller.rb:5:in `show'
+  [1m[35m (7.0ms)[0m  [1m[35mCREATE DATABASE "style_share_development" ENCODING = 'unicode'[0m
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE DATABASE "style_share_test" ENCODING = 'unicode'[0m
+  [1m[35m (67.2ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (13.1ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (3.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(5228683222772568195)[0m
+  [1m[35m (45.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateSketches (20200409231210)
+  [1m[35m (1.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (18.1ms)[0m  [1m[35mCREATE TABLE "sketches" ("id" bigserial primary key, "artist" character varying, "sketch" bytea, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (4.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200409231210"]]
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.6ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (3.0ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-04-09 23:14:02.519983"], ["updated_at", "2020-04-09 23:14:02.519983"]]
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_advisory_unlock(5228683222772568195)[0m
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2020-04-09 19:36:42 -0400
+  [1m[35m (6.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SketchController#show as HTML
+  [1m[36mSketch Load (4.5ms)[0m  [1m[34mSELECT "sketches".* FROM "sketches" ORDER BY "sketches"."created_at" DESC LIMIT $1[0m  [["LIMIT", 3]]
+  ↳ app/controllers/sketch_controller.rb:5:in `show'
+  Rendering sketch/show.html.erb within layouts/application
+  Rendered frontend/components/page/_page.html.erb (Duration: 20.9ms | Allocations: 1574)
+  Rendered sketch/show.html.erb within layouts/application (Duration: 29.8ms | Allocations: 1904)
+Completed 500 Internal Server Error in 269ms (ActiveRecord: 12.5ms | Allocations: 4861)
+
+
+  
+ActionView::Template::Error (Missing partial components/sketch/_sketch with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/Users/winston/Desktop/style-share-app/style_share/frontend"
+  * "/Users/winston/Desktop/style-share-app/style_share/app/views"
+  * "/Users/winston/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actiontext-6.0.2.2/app/views"
+  * "/Users/winston/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionmailbox-6.0.2.2/app/views"
+):
+    1: <div class="page">
+    2:   <%= yield %>
+    3: </div>
+  
+app/helpers/application_helper.rb:4:in `component'
+app/views/sketch/show.html.erb:2
+app/helpers/application_helper.rb:4:in `component'
+app/views/sketch/show.html.erb:1
+Started GET "/" for ::1 at 2020-04-09 19:45:09 -0400
+Processing by SketchController#show as HTML
+  [1m[36mSketch Load (2.3ms)[0m  [1m[34mSELECT "sketches".* FROM "sketches" ORDER BY "sketches"."created_at" DESC LIMIT $1[0m  [["LIMIT", 3]]
+  ↳ app/controllers/sketch_controller.rb:5:in `show'
+  Rendering sketch/show.html.erb within layouts/application
+  Rendered frontend/components/page/_page.html.erb (Duration: 13.6ms | Allocations: 1572)
+  Rendered sketch/show.html.erb within layouts/application (Duration: 19.6ms | Allocations: 1903)
+Completed 500 Internal Server Error in 59ms (ActiveRecord: 2.9ms | Allocations: 4647)
+
+
+  
+ActionView::Template::Error (Missing partial components/sketch/_sketch with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/Users/winston/Desktop/style-share-app/style_share/frontend"
+  * "/Users/winston/Desktop/style-share-app/style_share/app/views"
+  * "/Users/winston/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actiontext-6.0.2.2/app/views"
+  * "/Users/winston/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionmailbox-6.0.2.2/app/views"
+):
+    1: <div class="page">
+    2:   <%= yield %>
+    3: </div>
+  
+app/helpers/application_helper.rb:4:in `component'
+app/views/sketch/show.html.erb:2
+app/helpers/application_helper.rb:4:in `component'
+app/views/sketch/show.html.erb:1
+Started GET "/" for ::1 at 2020-04-09 19:46:17 -0400
+Processing by SketchController#show as HTML
+  [1m[36mSketch Load (1.0ms)[0m  [1m[34mSELECT "sketches".* FROM "sketches" ORDER BY "sketches"."created_at" DESC LIMIT $1[0m  [["LIMIT", 3]]
+  ↳ app/controllers/sketch_controller.rb:5:in `show'
+  Rendering sketch/show.html.erb within layouts/application
+  Rendered frontend/components/user-sketch/_user-sketch.html.erb (Duration: 1335.8ms | Allocations: 119565)
+  Rendered frontend/components/page/_page.html.erb (Duration: 1342.4ms | Allocations: 119867)
+  Rendered sketch/show.html.erb within layouts/application (Duration: 1350.1ms | Allocations: 120194)
+Completed 500 Internal Server Error in 1387ms (ActiveRecord: 1.0ms | Allocations: 122268)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `user' for #<#<Class:0x00007fb23dc29628>:0x00007fb23f21bd50>
+Did you mean?  super):
+    1: <div class="user-sketch">
+    2:     <div class="user-sketch--header">
+    3:         <span class="user-sketch--artist">
+    4:             <%= user-sketch.artist %>
+    5:         </span>
+    6:     </div>
+    7: </div>
+  
+app/helpers/application_helper.rb:4:in `component'
+app/views/sketch/show.html.erb:2
+app/helpers/application_helper.rb:4:in `component'
+app/views/sketch/show.html.erb:1
+Started GET "/" for ::1 at 2020-04-09 19:48:57 -0400
+Processing by SketchController#show as HTML
+  [1m[36mSketch Load (10.0ms)[0m  [1m[34mSELECT "sketches".* FROM "sketches" ORDER BY "sketches"."created_at" DESC LIMIT $1[0m  [["LIMIT", 3]]
+  ↳ app/controllers/sketch_controller.rb:5:in `show'
+  Rendering sketch/show.html.erb within layouts/application
+  Rendered frontend/components/user-sketch/_user-sketch.html.erb (Duration: 539.8ms | Allocations: 119634)
+  Rendered frontend/components/page/_page.html.erb (Duration: 547.9ms | Allocations: 119933)
+  Rendered sketch/show.html.erb within layouts/application (Duration: 552.8ms | Allocations: 120259)
+Completed 500 Internal Server Error in 578ms (ActiveRecord: 10.0ms | Allocations: 122325)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `sketch' for #<#<Class:0x00007fb23dc1a038>:0x00007fb23db2aa88>
+Did you mean?  sketches
+               @sketches):
+    1: <div class="user-sketch">
+    2:     <div class="user-sketch--header">
+    3:         <span class="user-sketch--artist">
+    4:             <%= sketch.artist %>
+    5:         </span>
+    6:     </div>
+    7: </div>
+  
+app/helpers/application_helper.rb:4:in `component'
+app/views/sketch/show.html.erb:2
+app/helpers/application_helper.rb:4:in `component'
+app/views/sketch/show.html.erb:1
+Started GET "/" for ::1 at 2020-04-09 20:12:05 -0400
+Processing by SketchController#show as HTML
+  [1m[36mSketch Load (1.0ms)[0m  [1m[34mSELECT "sketches".* FROM "sketches" ORDER BY "sketches"."created_at" DESC LIMIT $1[0m  [["LIMIT", 3]]
+  ↳ app/controllers/sketch_controller.rb:5:in `show'
+  Rendering sketch/show.html.erb within layouts/application
+  Rendered frontend/components/user-sketch/_user-sketch.html.erb (Duration: 1438.4ms | Allocations: 119636)
+  Rendered frontend/components/page/_page.html.erb (Duration: 1443.3ms | Allocations: 119935)
+  Rendered sketch/show.html.erb within layouts/application (Duration: 1455.3ms | Allocations: 120261)
+Completed 500 Internal Server Error in 1766ms (ActiveRecord: 2.1ms | Allocations: 122447)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `sketch' for #<#<Class:0x00007fb23f1f9c50>:0x00007fb23dab7498>
+Did you mean?  sketches
+               @sketches):
+    1: <div class="user-sketch">
+    2:     <div class="user-sketch--header">
+    3:         <span class="user-sketch--artist">
+    4:             <%= sketch.artist %>
+    5:         </span>
+    6:     </div>
+    7: </div>
+  
+app/helpers/application_helper.rb:4:in `component'
+app/views/sketch/show.html.erb:2
+app/helpers/application_helper.rb:4:in `component'
+app/views/sketch/show.html.erb:1
