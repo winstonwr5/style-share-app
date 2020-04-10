@@ -1,15 +1,16 @@
-points = [];
-begin = false;
+<script>
+    points = [];
+    begin = false;
 
-function setup() {
-  createCanvas(640,360);
-}
+    function setup() {
+        createCanvas(640,360);
+    }
 
-function draw() {
-    background(255,255,255);
+    function draw() {
+        background(255,255,255);
 
-    if(begin){
-        points.push(createVector(mouseX, mouseY));
+        if(begin){
+            points.push(createVector(mouseX, mouseY));
     }
 
     stroke(0,0,0);
@@ -21,14 +22,15 @@ function draw() {
 
         vertex(x, y);
     }
-    endForm();
-}
+        endForm();
+    }
 
-function mousePressed(){
-    begin = true;
-    points = [];
-}
+    function mousePressed(){
+        begin = true;
+        points = [];
+    }
 
-function mouseReleased(){
-    start = false;
-}
+    function mouseReleased(){
+        start = false;
+    }
+</script>

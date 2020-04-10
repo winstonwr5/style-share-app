@@ -17,7 +17,8 @@ ActiveRecord::Schema.define(version: 2020_04_09_231210) do
 
   create_table "sketches", force: :cascade do |t|
     t.string "artist"
-    t.binary "sketch"
+    t.string "description"
+    t.text "code"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
