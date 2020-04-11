@@ -3867,6 +3867,18 @@ jest-worker@^25.1.0:
     merge-stream "^2.0.0"
     supports-color "^7.0.0"
 
+jquery-ujs@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/jquery-ujs/-/jquery-ujs-1.2.2.tgz#6a8ef1020e6b6dda385b90a4bddc128c21c56397"
+  integrity sha1-ao7xAg5rbdo4W5CkvdwSjCHFY5c=
+  dependencies:
+    jquery ">=1.8.0"
+
+jquery@>=1.8.0, jquery@^3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.5.0.tgz#9980b97d9e4194611c36530e7dc46a58d7340fc9"
+  integrity sha512-Xb7SVYMvygPxbFMpTFQiHh1J7HClEaThguL15N/Gg37Lri/qKyhRGZYzHRyLH8Stq3Aow0LsHO2O2ci86fCrNQ==
+
 js-base64@^2.1.8:
   version "2.5.2"
   resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-2.5.2.tgz#313b6274dda718f714d00b3330bbae6e38e90209"
@@ -4897,6 +4909,11 @@ p-try@^2.0.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/p-try/-/p-try-2.2.0.tgz#cb2868540e313d61de58fafbe35ce9004d5540e6"
   integrity sha512-R4nPAVTAU0B9D35/Gk3uJf/7XYbQcyohSKdvAxIRSNghFl4e71hVoGnBNQz9cWaXxO2I10KTC+3jMdvvoKw6dQ==
+
+p5@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/p5/-/p5-1.0.0.tgz#d27c77c1c11450ede27af4614a5d24470ffab0c4"
+  integrity sha512-SYYc6NSHA/mMoF00SdI39FmhifMWl0B74/Bg3T793v+KOAWgXsBfr7snv9cjHFqpcmjtJMuZSOoA55qAETCu1w==
 
 pako@~1.0.5:
   version "1.0.11"

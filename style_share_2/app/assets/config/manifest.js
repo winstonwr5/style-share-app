@@ -1,3 +1,5 @@
 //= link_tree ../images
 //= link_directory ../stylesheets .css
-//= link p5.js
+//= link jquery
+//= link jquery_ujs
+//= link p5

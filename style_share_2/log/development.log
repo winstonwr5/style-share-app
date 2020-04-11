@@ -437,3 +437,1285 @@ Processing by PagesController#show as HTML
 Completed 200 OK in 321ms (Views: 301.7ms | ActiveRecord: 0.0ms | Allocations: 14548)
 
 
+Started POST "/pages/show" for ::1 at 2020-04-11 12:36:16 -0400
+Processing by PagesController#update as HTML
+  Parameters: {"authenticity_token"=>"MDHqyRHxpb2+QhuRzomHfbllnKmSHjSvMyFMWmIhoMFR/B6T/x3QupMy54YCxcfODe5g/30RVa40NFTTDYyf3w==", "resolution"=>{"res_string"=>"800x600"}, "commit"=>"Change"}
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 0.1ms | Allocations: 10)
+  Rendered pages/_canvas_model.html.erb (Duration: 2.3ms | Allocations: 337)
+  Rendered pages/show.html.erb within layouts/application (Duration: 2.9ms | Allocations: 397)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 26ms (Views: 25.1ms | ActiveRecord: 0.0ms | Allocations: 5712)
+
+
+Started POST "/pages/show" for ::1 at 2020-04-11 12:36:21 -0400
+Processing by PagesController#update as HTML
+  Parameters: {"authenticity_token"=>"OdXAurUTtUo0tYCn5SXYHitvmYNIyL9AZ8C/8gHrDMtYGDTgW//ATRnFfLApaZitn+Rl1afH3kFg1ad7bkYz1Q==", "resolution"=>{"res_string"=>"640x480"}, "commit"=>"Change"}
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 0.1ms | Allocations: 10)
+  Rendered pages/_canvas_model.html.erb (Duration: 2.1ms | Allocations: 336)
+  Rendered pages/show.html.erb within layouts/application (Duration: 2.5ms | Allocations: 395)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 35ms (Views: 33.6ms | ActiveRecord: 0.0ms | Allocations: 5696)
+
+
+Started POST "/pages/show" for ::1 at 2020-04-11 12:36:26 -0400
+Processing by PagesController#update as HTML
+  Parameters: {"authenticity_token"=>"xmkrsEuTJudaXzqwosl0d8nvMVHzI8wfkchRKkCLq9anpN/qpX9T4HcvxqduhTTEfWTNBxwsrR6W3UmjLyaUyA==", "resolution"=>{"res_string"=>"1024x768"}, "commit"=>"Change"}
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 0.1ms | Allocations: 10)
+  Rendered pages/_canvas_model.html.erb (Duration: 1.5ms | Allocations: 336)
+  Rendered pages/show.html.erb within layouts/application (Duration: 1.8ms | Allocations: 396)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 27ms (Views: 25.4ms | ActiveRecord: 0.0ms | Allocations: 5707)
+
+
+Started GET "/pages/show" for ::1 at 2020-04-11 12:50:25 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 2.3ms | Allocations: 199)
+  Rendered pages/_canvas_model.html.erb (Duration: 8.7ms | Allocations: 855)
+  Rendered pages/show.html.erb within layouts/application (Duration: 18.9ms | Allocations: 1139)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 78ms (Views: 64.0ms | ActiveRecord: 0.0ms | Allocations: 7407)
+
+
+Started GET "/pages/show" for ::1 at 2020-04-11 13:03:57 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 4.1ms | Allocations: 143)
+  Rendered pages/_canvas_model.html.erb (Duration: 27.1ms | Allocations: 797)
+  Rendered pages/show.html.erb within layouts/application (Duration: 40.0ms | Allocations: 1074)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 500 Internal Server Error in 542ms (ActiveRecord: 0.0ms | Allocations: 15516)
+
+
+  
+ActionView::Template::Error (The asset "user_canvas.js" is not present in the asset pipeline.):
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:     <%= javascript_include_tag 'p5' %>
+    11:     <%= javascript_include_tag 'user_canvas' %>
+    12:   </head>
+    13: 
+    14:   <body>
+  
+app/views/layouts/application.html.erb:11
+Started GET "/pages/show" for ::1 at 2020-04-11 13:05:05 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 0.1ms | Allocations: 10)
+  Rendered pages/_canvas_model.html.erb (Duration: 3.4ms | Allocations: 347)
+  Rendered pages/show.html.erb within layouts/application (Duration: 3.7ms | Allocations: 406)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 500 Internal Server Error in 49ms (ActiveRecord: 0.0ms | Allocations: 11674)
+
+
+  
+ActionView::Template::Error (The asset "user_canvas.js" is not present in the asset pipeline.):
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:     <%= javascript_include_tag 'p5' %>
+    11:     <%= javascript_include_tag 'user_canvas' %>
+    12:   </head>
+    13: 
+    14:   <body>
+  
+app/views/layouts/application.html.erb:11
+Started GET "/pages/show" for ::1 at 2020-04-11 13:05:29 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 1.9ms | Allocations: 143)
+  Rendered pages/_canvas_model.html.erb (Duration: 9.0ms | Allocations: 798)
+  Rendered pages/show.html.erb within layouts/application (Duration: 12.2ms | Allocations: 1076)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 42ms (Views: 38.9ms | ActiveRecord: 0.0ms | Allocations: 7361)
+
+
+Started GET "/" for ::1 at 2020-04-11 13:05:42 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 0.1ms | Allocations: 10)
+  Rendered pages/_canvas_model.html.erb (Duration: 1.4ms | Allocations: 341)
+  Rendered pages/show.html.erb within layouts/application (Duration: 1.8ms | Allocations: 400)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 34ms (Views: 32.2ms | ActiveRecord: 0.0ms | Allocations: 5688)
+
+
+Started GET "/" for ::1 at 2020-04-11 13:05:44 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 0.0ms | Allocations: 10)
+  Rendered pages/_canvas_model.html.erb (Duration: 0.7ms | Allocations: 340)
+  Rendered pages/show.html.erb within layouts/application (Duration: 0.9ms | Allocations: 399)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 40ms (Views: 39.2ms | ActiveRecord: 0.0ms | Allocations: 5688)
+
+
+Started GET "/sketches" for ::1 at 2020-04-11 13:05:45 -0400
+Processing by SketchesController#index as HTML
+  Rendering sketches/index.html.erb within layouts/application
+  [1m[36mSketch Load (15.1ms)[0m  [1m[34mSELECT "sketches".* FROM "sketches"[0m
+  ↳ app/views/sketches/index.html.erb:4
+  Rendered collection of sketches/_sketch.html.erb [1 times] (Duration: 13.6ms | Allocations: 372)
+  Rendered sketches/index.html.erb within layouts/application (Duration: 184.2ms | Allocations: 3725)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 242ms (Views: 109.4ms | ActiveRecord: 104.4ms | Allocations: 9976)
+
+
+Started GET "/sketches/new" for ::1 at 2020-04-11 13:05:53 -0400
+Processing by SketchesController#new as HTML
+  Rendering sketches/new.html.erb within layouts/application
+  Rendered sketches/_form.html.erb (Duration: 104.7ms | Allocations: 2694)
+  Rendered sketches/new.html.erb within layouts/application (Duration: 111.0ms | Allocations: 2991)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 134ms (Views: 131.6ms | ActiveRecord: 0.0ms | Allocations: 8459)
+
+
+Started GET "/pages/show" for ::1 at 2020-04-11 13:19:35 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 14.3ms | Allocations: 148)
+  Rendered pages/_canvas_model.html.erb (Duration: 43.3ms | Allocations: 802)
+  Rendered pages/show.html.erb within layouts/application (Duration: 52.1ms | Allocations: 1079)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/winston/Desktop/style-share-app/style_share_2/public/packs
+[Webpacker] Hash: 88efc2f78bb68307263c
+Version: webpack 4.42.1
+Time: 2264ms
+Built at: 04/11/2020 1:19:41 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-e8bf723ba2c239638220.js    124 KiB  application  [emitted] [immutable]  application
+js/application-e8bf723ba2c239638220.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-e8bf723ba2c239638220.js js/application-e8bf723ba2c239638220.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 806 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 6455ms (Views: 6415.6ms | ActiveRecord: 0.0ms | Allocations: 8509)
+
+
+Started GET "/pages/show" for ::1 at 2020-04-11 13:29:20 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 48.3ms | Allocations: 10)
+  Rendered pages/_canvas_model.html.erb (Duration: 297.5ms | Allocations: 342)
+  Rendered pages/show.html.erb within layouts/application (Duration: 348.8ms | Allocations: 401)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/winston/Desktop/style-share-app/style_share_2/public/packs
+[Webpacker] Hash: 5ea8f1d6fd179decaf4a
+Version: webpack 4.42.1
+Time: 6170ms
+Built at: 04/11/2020 1:29:50 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-b21eeac357d00365fc5a.js    124 KiB  application  [emitted] [immutable]  application
+js/application-b21eeac357d00365fc5a.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-b21eeac357d00365fc5a.js js/application-b21eeac357d00365fc5a.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 806 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 67338ms (Views: 67048.0ms | ActiveRecord: 0.0ms | Allocations: 7035)
+
+
+Started GET "/pages/show" for ::1 at 2020-04-11 13:33:57 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 5.6ms | Allocations: 147)
+  Rendered pages/_canvas_model.html.erb (Duration: 24.6ms | Allocations: 802)
+  Rendered pages/show.html.erb within layouts/application (Duration: 54.6ms | Allocations: 1085)
+Completed 500 Internal Server Error in 144ms (ActiveRecord: 0.0ms | Allocations: 3406)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html>
+<html>
+  <head>
+    <title>StyleShare</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track', : 'reload' %>
+    <%= javascript_include_tag 'jquery' %>
+    <%= javascript_include_tag 'jquery_ujs' %>
+    <%= javascript_include_tag 'p5' %>
+  </head>
+
+  <body>
+      <section id="navbar">
+      <div class="navbar-top">
+        <div class="navbar-brand">
+           <h1><%= link_to "StyleShare", sketches_path %></h1>
+        </div>
+        <div class="navbar-links">
+          <ul>
+            <li><%= link_to "Sample Sketch", root_path %></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="main-container">
+        <%= yield %>
+    </section>
+
+  </body>
+</html>
+
+):
+1:    <!DOCTYPE html>
+2:    <html>
+3:      <head>
+4:        <title>StyleShare</title>
+5:        <%= csrf_meta_tags %>
+6:        <%= csp_meta_tag %>
+7:    
+8:        <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+9:        <%= javascript_pack_tag 'application', 'data-turbolinks-track', : 'reload' %>
+10:        <%= javascript_include_tag 'jquery' %>
+11:        <%= javascript_include_tag 'jquery_ujs' %>
+12:        <%= javascript_include_tag 'p5' %>
+13:      </head>
+14:    
+15:      <body>
+16:          <section id="navbar">
+17:          <div class="navbar-top">
+18:            <div class="navbar-brand">
+19:               <h1><%= link_to "StyleShare", sketches_path %></h1>
+20:            </div>
+21:            <div class="navbar-links">
+22:              <ul>
+23:                <li><%= link_to "Sample Sketch", root_path %></li>
+24:              </ul>
+25:            </div>
+26:          </div>
+27:        </section>
+28:    
+29:        <section class="main-container">
+30:            <%= yield %>
+31:        </section>
+32:    
+33:      </body>
+34:    </html>
+  
+app/views/layouts/application.html.erb:9: syntax error, unexpected ':'
+app/views/layouts/application.html.erb:9: syntax error, unexpected ':'
+app/views/layouts/application.html.erb:9: syntax error, unexpected ':'
+app/views/layouts/application.html.erb:9: syntax error, unexpected ':'
+app/views/layouts/application.html.erb:9: syntax error, unexpected ':'
+app/views/layouts/application.html.erb:9: syntax error, unexpected ':'
+Started GET "/pages/show" for ::1 at 2020-04-11 13:35:38 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 3.0ms | Allocations: 147)
+  Rendered pages/_canvas_model.html.erb (Duration: 12.6ms | Allocations: 802)
+  Rendered pages/show.html.erb within layouts/application (Duration: 18.6ms | Allocations: 1080)
+Completed 500 Internal Server Error in 41ms (ActiveRecord: 0.0ms | Allocations: 3384)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html>
+<html>
+  <head>
+    <title>StyleShare</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track', : 'reload' %>
+    <%= javascript_include_tag 'jquery' %>
+    <%= javascript_include_tag 'p5' %>
+  </head>
+
+  <body>
+      <section id="navbar">
+      <div class="navbar-top">
+        <div class="navbar-brand">
+           <h1><%= link_to "StyleShare", sketches_path %></h1>
+        </div>
+        <div class="navbar-links">
+          <ul>
+            <li><%= link_to "Sample Sketch", root_path %></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="main-container">
+        <%= yield %>
+    </section>
+
+  </body>
+</html>
+
+):
+1:    <!DOCTYPE html>
+2:    <html>
+3:      <head>
+4:        <title>StyleShare</title>
+5:        <%= csrf_meta_tags %>
+6:        <%= csp_meta_tag %>
+7:    
+8:        <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+9:        <%= javascript_pack_tag 'application', 'data-turbolinks-track', : 'reload' %>
+10:        <%= javascript_include_tag 'jquery' %>
+11:        <%= javascript_include_tag 'p5' %>
+12:      </head>
+13:    
+14:      <body>
+15:          <section id="navbar">
+16:          <div class="navbar-top">
+17:            <div class="navbar-brand">
+18:               <h1><%= link_to "StyleShare", sketches_path %></h1>
+19:            </div>
+20:            <div class="navbar-links">
+21:              <ul>
+22:                <li><%= link_to "Sample Sketch", root_path %></li>
+23:              </ul>
+24:            </div>
+25:          </div>
+26:        </section>
+27:    
+28:        <section class="main-container">
+29:            <%= yield %>
+30:        </section>
+31:    
+32:      </body>
+33:    </html>
+  
+app/views/layouts/application.html.erb:9: syntax error, unexpected ':'
+app/views/layouts/application.html.erb:9: syntax error, unexpected ':'
+app/views/layouts/application.html.erb:9: syntax error, unexpected ':'
+app/views/layouts/application.html.erb:9: syntax error, unexpected ':'
+app/views/layouts/application.html.erb:9: syntax error, unexpected ':'
+app/views/layouts/application.html.erb:9: syntax error, unexpected ':'
+Started GET "/pages/show" for ::1 at 2020-04-11 13:35:56 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 3.5ms | Allocations: 147)
+  Rendered pages/_canvas_model.html.erb (Duration: 8.6ms | Allocations: 802)
+  Rendered pages/show.html.erb within layouts/application (Duration: 11.1ms | Allocations: 1081)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms | Allocations: 3368)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html>
+<html>
+  <head>
+    <title>StyleShare</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track', : 'reload' %>
+    <%= javascript_include_tag 'p5' %>
+  </head>
+
+  <body>
+      <section id="navbar">
+      <div class="navbar-top">
+        <div class="navbar-brand">
+           <h1><%= link_to "StyleShare", sketches_path %></h1>
+        </div>
+        <div class="navbar-links">
+          <ul>
+            <li><%= link_to "Sample Sketch", root_path %></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="main-container">
+        <%= yield %>
+    </section>
+
+  </body>
+</html>
+
+):
+1:    <!DOCTYPE html>
+2:    <html>
+3:      <head>
+4:        <title>StyleShare</title>
+5:        <%= csrf_meta_tags %>
+6:        <%= csp_meta_tag %>
+7:    
+8:        <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+9:        <%= javascript_pack_tag 'application', 'data-turbolinks-track', : 'reload' %>
+10:        <%= javascript_include_tag 'p5' %>
+11:      </head>
+12:    
+13:      <body>
+14:          <section id="navbar">
+15:          <div class="navbar-top">
+16:            <div class="navbar-brand">
+17:               <h1><%= link_to "StyleShare", sketches_path %></h1>
+18:            </div>
+19:            <div class="navbar-links">
+20:              <ul>
+21:                <li><%= link_to "Sample Sketch", root_path %></li>
+22:              </ul>
+23:            </div>
+24:          </div>
+25:        </section>
+26:    
+27:        <section class="main-container">
+28:            <%= yield %>
+29:        </section>
+30:    
+31:      </body>
+32:    </html>
+  
+app/views/layouts/application.html.erb:9: syntax error, unexpected ':'
+app/views/layouts/application.html.erb:9: syntax error, unexpected ':'
+app/views/layouts/application.html.erb:9: syntax error, unexpected ':'
+app/views/layouts/application.html.erb:9: syntax error, unexpected ':'
+app/views/layouts/application.html.erb:9: syntax error, unexpected ':'
+app/views/layouts/application.html.erb:9: syntax error, unexpected ':'
+Started GET "/pages/show" for ::1 at 2020-04-11 13:36:00 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 0.1ms | Allocations: 10)
+  Rendered pages/_canvas_model.html.erb (Duration: 3.0ms | Allocations: 347)
+  Rendered pages/show.html.erb within layouts/application (Duration: 3.3ms | Allocations: 406)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 1945)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html>
+<html>
+  <head>
+    <title>StyleShare</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track', : 'reload' %>
+    <%= javascript_include_tag 'p5' %>
+  </head>
+
+  <body>
+      <section id="navbar">
+      <div class="navbar-top">
+        <div class="navbar-brand">
+           <h1><%= link_to "StyleShare", sketches_path %></h1>
+        </div>
+        <div class="navbar-links">
+          <ul>
+            <li><%= link_to "Sample Sketch", root_path %></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="main-container">
+        <%= yield %>
+    </section>
+
+  </body>
+</html>
+
+):
+1:    <!DOCTYPE html>
+2:    <html>
+3:      <head>
+4:        <title>StyleShare</title>
+5:        <%= csrf_meta_tags %>
+6:        <%= csp_meta_tag %>
+7:    
+8:        <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+9:        <%= javascript_pack_tag 'application', 'data-turbolinks-track', : 'reload' %>
+10:        <%= javascript_include_tag 'p5' %>
+11:      </head>
+12:    
+13:      <body>
+14:          <section id="navbar">
+15:          <div class="navbar-top">
+16:            <div class="navbar-brand">
+17:               <h1><%= link_to "StyleShare", sketches_path %></h1>
+18:            </div>
+19:            <div class="navbar-links">
+20:              <ul>
+21:                <li><%= link_to "Sample Sketch", root_path %></li>
+22:              </ul>
+23:            </div>
+24:          </div>
+25:        </section>
+26:    
+27:        <section class="main-container">
+28:            <%= yield %>
+29:        </section>
+30:    
+31:      </body>
+32:    </html>
+  
+app/views/layouts/application.html.erb:9: syntax error, unexpected ':'
+app/views/layouts/application.html.erb:9: syntax error, unexpected ':'
+app/views/layouts/application.html.erb:9: syntax error, unexpected ':'
+app/views/layouts/application.html.erb:9: syntax error, unexpected ':'
+app/views/layouts/application.html.erb:9: syntax error, unexpected ':'
+app/views/layouts/application.html.erb:9: syntax error, unexpected ':'
+Started GET "/pages/show" for ::1 at 2020-04-11 13:36:36 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 0.8ms | Allocations: 147)
+  Rendered pages/_canvas_model.html.erb (Duration: 6.3ms | Allocations: 802)
+  Rendered pages/show.html.erb within layouts/application (Duration: 9.8ms | Allocations: 1080)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms | Allocations: 3367)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html>
+<html>
+  <head>
+    <title>StyleShare</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track', : 'reload' %>
+    <%= javascript_include_tag 'p5' %>
+  </head>
+
+  <body>
+      <section id="navbar">
+      <div class="navbar-top">
+        <div class="navbar-brand">
+           <h1><%= link_to "StyleShare", sketches_path %></h1>
+        </div>
+        <div class="navbar-links">
+          <ul>
+            <li><%= link_to "Sample Sketch", root_path %></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="main-container">
+        <%= yield %>
+    </section>
+
+  </body>
+</html>
+
+):
+1:    <!DOCTYPE html>
+2:    <html>
+3:      <head>
+4:        <title>StyleShare</title>
+5:        <%= csrf_meta_tags %>
+6:        <%= csp_meta_tag %>
+7:    
+8:        <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+9:        <%= javascript_pack_tag 'application', 'data-turbolinks-track', : 'reload' %>
+10:        <%= javascript_include_tag 'p5' %>
+11:      </head>
+12:    
+13:      <body>
+14:          <section id="navbar">
+15:          <div class="navbar-top">
+16:            <div class="navbar-brand">
+17:               <h1><%= link_to "StyleShare", sketches_path %></h1>
+18:            </div>
+19:            <div class="navbar-links">
+20:              <ul>
+21:                <li><%= link_to "Sample Sketch", root_path %></li>
+22:              </ul>
+23:            </div>
+24:          </div>
+25:        </section>
+26:    
+27:        <section class="main-container">
+28:            <%= yield %>
+29:        </section>
+30:    
+31:      </body>
+32:    </html>
+  
+app/views/layouts/application.html.erb:9: syntax error, unexpected ':'
+app/views/layouts/application.html.erb:9: syntax error, unexpected ':'
+app/views/layouts/application.html.erb:9: syntax error, unexpected ':'
+app/views/layouts/application.html.erb:9: syntax error, unexpected ':'
+app/views/layouts/application.html.erb:9: syntax error, unexpected ':'
+app/views/layouts/application.html.erb:9: syntax error, unexpected ':'
+Started GET "/pages/show" for ::1 at 2020-04-11 13:37:26 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 2.6ms | Allocations: 147)
+  Rendered pages/_canvas_model.html.erb (Duration: 7.9ms | Allocations: 802)
+  Rendered pages/show.html.erb within layouts/application (Duration: 11.3ms | Allocations: 1080)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 54ms (Views: 49.4ms | ActiveRecord: 0.0ms | Allocations: 7365)
+
+
+Started GET "/pages/show" for ::1 at 2020-04-11 13:37:59 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 0.7ms | Allocations: 147)
+  Rendered pages/_canvas_model.html.erb (Duration: 4.7ms | Allocations: 802)
+  Rendered pages/show.html.erb within layouts/application (Duration: 8.0ms | Allocations: 1083)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 500 Internal Server Error in 52ms (ActiveRecord: 0.0ms | Allocations: 12102)
+
+
+  
+ActionView::Template::Error (The asset "jquery.js" is not present in the asset pipeline.):
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:     <%= javascript_include_tag 'jquery' %>
+    11:     <%= javascript_include_tag 'jquery_ujs' %>
+    12:     <%= javascript_include_tag 'p5' %>
+    13: 
+  
+app/views/layouts/application.html.erb:10
+Started GET "/pages/show" for ::1 at 2020-04-11 13:38:39 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 3.8ms | Allocations: 147)
+  Rendered pages/_canvas_model.html.erb (Duration: 9.2ms | Allocations: 802)
+  Rendered pages/show.html.erb within layouts/application (Duration: 11.2ms | Allocations: 1080)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 43ms (Views: 40.8ms | ActiveRecord: 0.0ms | Allocations: 7373)
+
+
+Started GET "/pages/show" for ::1 at 2020-04-11 14:45:10 -0400
+  [1m[35m (5.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 1.8ms | Allocations: 150)
+  Rendered pages/_canvas_model.html.erb (Duration: 25.8ms | Allocations: 973)
+  Rendered pages/show.html.erb within layouts/application (Duration: 36.7ms | Allocations: 1376)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7081ms (Views: 7052.9ms | ActiveRecord: 0.0ms | Allocations: 260254)
+
+
+Started GET "/pages/show" for ::1 at 2020-04-11 14:49:10 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 0.1ms | Allocations: 10)
+  Rendered pages/_canvas_model.html.erb (Duration: 9.1ms | Allocations: 341)
+  Rendered pages/show.html.erb within layouts/application (Duration: 11.6ms | Allocations: 401)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/winston/Desktop/style-share-app/style_share_2/public/packs
+[Webpacker] Hash: 4aff11650e1a62c287f9
+Version: webpack 4.42.1
+Time: 2431ms
+Built at: 04/11/2020 2:49:17 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-cc0302b97a6a1091c7d6.js    124 KiB  application  [emitted] [immutable]  application
+js/application-cc0302b97a6a1091c7d6.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-cc0302b97a6a1091c7d6.js js/application-cc0302b97a6a1091c7d6.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 806 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 7341ms (Views: 7327.2ms | ActiveRecord: 0.0ms | Allocations: 6910)
+
+
+Started GET "/pages/show" for ::1 at 2020-04-11 14:50:21 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 0.1ms | Allocations: 10)
+  Rendered pages/_canvas_model.html.erb (Duration: 9.4ms | Allocations: 340)
+  Rendered pages/show.html.erb within layouts/application (Duration: 10.0ms | Allocations: 399)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: a29615ee6010b1fa5956
+Version: webpack 4.42.1
+Time: 1538ms
+Built at: 04/11/2020 2:50:25 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-75292b54f699d7072ed7.js    124 KiB  application  [emitted] [immutable]  application
+js/application-75292b54f699d7072ed7.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-75292b54f699d7072ed7.js js/application-75292b54f699d7072ed7.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 809 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+ERROR in ./app/javascript/packs/application.js
+Module not found: Error: Can't resolve 'jquery' in '/Users/winston/Desktop/style-share-app/style_share_2/app/javascript/packs'
+ @ ./app/javascript/packs/application.js 5:0-17
+
+ERROR in ./app/javascript/packs/application.js
+Module not found: Error: Can't resolve 'jquery_ujs' in '/Users/winston/Desktop/style-share-app/style_share_2/app/javascript/packs'
+ @ ./app/javascript/packs/application.js 7:0-21
+
+ERROR in ./app/javascript/packs/application.js
+Module not found: Error: Can't resolve 'p5' in '/Users/winston/Desktop/style-share-app/style_share_2/app/javascript/packs'
+ @ ./app/javascript/packs/application.js 9:0-13
+
+Completed 200 OK in 4273ms (Views: 4271.7ms | ActiveRecord: 0.0ms | Allocations: 6736)
+
+
+Started GET "/pages/show" for ::1 at 2020-04-11 14:50:53 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 0.1ms | Allocations: 10)
+  Rendered pages/_canvas_model.html.erb (Duration: 11.4ms | Allocations: 340)
+  Rendered pages/show.html.erb within layouts/application (Duration: 12.6ms | Allocations: 399)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/winston/Desktop/style-share-app/style_share_2/public/packs
+[Webpacker] Hash: 5ea8f1d6fd179decaf4a
+Version: webpack 4.42.1
+Time: 2503ms
+Built at: 04/11/2020 2:51:00 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-b21eeac357d00365fc5a.js    124 KiB  application  [emitted] [immutable]  application
+js/application-b21eeac357d00365fc5a.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-b21eeac357d00365fc5a.js js/application-b21eeac357d00365fc5a.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 806 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 7207ms (Views: 7199.2ms | ActiveRecord: 0.0ms | Allocations: 6820)
+
+
+Started GET "/pages/show" for ::1 at 2020-04-11 14:51:53 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 1.8ms | Allocations: 147)
+  Rendered pages/_canvas_model.html.erb (Duration: 12.2ms | Allocations: 802)
+  Rendered pages/show.html.erb within layouts/application (Duration: 23.6ms | Allocations: 1088)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 500 Internal Server Error in 311ms (ActiveRecord: 0.0ms | Allocations: 10863)
+
+
+  
+ActionView::Template::Error (Webpacker can't find data-turbolinks-track in /Users/winston/Desktop/style-share-app/style_share_2/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+  "application.js": "/packs/js/application-b21eeac357d00365fc5a.js",
+  "application.js.map": "/packs/js/application-b21eeac357d00365fc5a.js.map",
+  "entrypoints": {
+    "application": {
+      "js": [
+        "/packs/js/application-b21eeac357d00365fc5a.js"
+      ],
+      "js.map": [
+        "/packs/js/application-b21eeac357d00365fc5a.js.map"
+      ]
+    }
+  }
+}
+):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track', 'jquery': 'reload' %>
+    10:     <%= javascript_include_tag 'p5' %>
+    11: 
+    12:   </head>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/pages/show" for ::1 at 2020-04-11 14:52:24 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 0.6ms | Allocations: 147)
+  Rendered pages/_canvas_model.html.erb (Duration: 4.2ms | Allocations: 803)
+  Rendered pages/show.html.erb within layouts/application (Duration: 6.8ms | Allocations: 1081)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 43ms (Views: 39.7ms | ActiveRecord: 0.0ms | Allocations: 7389)
+
+
+Started GET "/pages/show" for ::1 at 2020-04-11 14:58:00 -0400
+  [1m[35m (2.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 0.7ms | Allocations: 150)
+  Rendered pages/_canvas_model.html.erb (Duration: 9.4ms | Allocations: 973)
+  Rendered pages/show.html.erb within layouts/application (Duration: 14.1ms | Allocations: 1376)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+/Users/winston/Desktop/style-share-app/style_share_2/node_modules/webpack-cli/bin/cli.js:93
+				throw err;
+				^
+
+ReferenceError: webpack is not defined
+    at Object.<anonymous> (/Users/winston/Desktop/style-share-app/style_share_2/config/webpack/environment.js:3:9)
+    at Module._compile (/Users/winston/Desktop/style-share-app/style_share_2/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1164:10)
+    at Module.load (internal/modules/cjs/loader.js:993:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:892:14)
+    at Module.require (internal/modules/cjs/loader.js:1033:19)
+    at require (/Users/winston/Desktop/style-share-app/style_share_2/node_modules/v8-compile-cache/v8-compile-cache.js:161:20)
+    at Object.<anonymous> (/Users/winston/Desktop/style-share-app/style_share_2/config/webpack/development.js:3:21)
+    at Module._compile (/Users/winston/Desktop/style-share-app/style_share_2/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1164:10)
+    at Module.load (internal/modules/cjs/loader.js:993:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:892:14)
+    at Module.require (internal/modules/cjs/loader.js:1033:19)
+    at require (/Users/winston/Desktop/style-share-app/style_share_2/node_modules/v8-compile-cache/v8-compile-cache.js:161:20)
+    at WEBPACK_OPTIONS (/Users/winston/Desktop/style-share-app/style_share_2/node_modules/webpack-cli/bin/utils/convert-argv.js:114:13)
+    at requireConfig (/Users/winston/Desktop/style-share-app/style_share_2/node_modules/webpack-cli/bin/utils/convert-argv.js:116:6)
+    at /Users/winston/Desktop/style-share-app/style_share_2/node_modules/webpack-cli/bin/utils/convert-argv.js:123:17
+    at Array.forEach (<anonymous>)
+    at module.exports (/Users/winston/Desktop/style-share-app/style_share_2/node_modules/webpack-cli/bin/utils/convert-argv.js:121:15)
+    at /Users/winston/Desktop/style-share-app/style_share_2/node_modules/webpack-cli/bin/cli.js:71:45
+    at Object.parse (/Users/winston/Desktop/style-share-app/style_share_2/node_modules/webpack-cli/node_modules/yargs/yargs.js:567:18)
+    at /Users/winston/Desktop/style-share-app/style_share_2/node_modules/webpack-cli/bin/cli.js:49:8
+    at Object.<anonymous> (/Users/winston/Desktop/style-share-app/style_share_2/node_modules/webpack-cli/bin/cli.js:366:3)
+    at Module._compile (internal/modules/cjs/loader.js:1144:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1164:10)
+    at Module.load (internal/modules/cjs/loader.js:993:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:892:14)
+    at Module.require (internal/modules/cjs/loader.js:1033:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/Users/winston/Desktop/style-share-app/style_share_2/node_modules/webpack/bin/webpack.js:156:2)
+
+Completed 200 OK in 4790ms (Views: 4774.7ms | ActiveRecord: 0.0ms | Allocations: 13011)
+
+
+Started GET "/pages/show" for ::1 at 2020-04-11 14:58:55 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 0.1ms | Allocations: 10)
+  Rendered pages/_canvas_model.html.erb (Duration: 1.6ms | Allocations: 341)
+  Rendered pages/show.html.erb within layouts/application (Duration: 2.0ms | Allocations: 400)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 24ms (Views: 22.6ms | ActiveRecord: 0.0ms | Allocations: 5706)
+
+
+Started GET "/" for ::1 at 2020-04-11 14:59:03 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 0.1ms | Allocations: 10)
+  Rendered pages/_canvas_model.html.erb (Duration: 2.4ms | Allocations: 340)
+  Rendered pages/show.html.erb within layouts/application (Duration: 3.0ms | Allocations: 400)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 53ms (Views: 51.2ms | ActiveRecord: 0.0ms | Allocations: 5714)
+
+
+Started GET "/" for ::1 at 2020-04-11 15:00:38 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 0.2ms | Allocations: 10)
+  Rendered pages/_canvas_model.html.erb (Duration: 7.1ms | Allocations: 340)
+  Rendered pages/show.html.erb within layouts/application (Duration: 7.6ms | Allocations: 399)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+/Users/winston/Desktop/style-share-app/style_share_2/node_modules/webpack-cli/bin/cli.js:93
+				throw err;
+				^
+
+ReferenceError: webpack is not defined
+    at Object.<anonymous> (/Users/winston/Desktop/style-share-app/style_share_2/config/webpack/environment.js:3:9)
+    at Module._compile (/Users/winston/Desktop/style-share-app/style_share_2/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1164:10)
+    at Module.load (internal/modules/cjs/loader.js:993:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:892:14)
+    at Module.require (internal/modules/cjs/loader.js:1033:19)
+    at require (/Users/winston/Desktop/style-share-app/style_share_2/node_modules/v8-compile-cache/v8-compile-cache.js:161:20)
+    at Object.<anonymous> (/Users/winston/Desktop/style-share-app/style_share_2/config/webpack/development.js:3:21)
+    at Module._compile (/Users/winston/Desktop/style-share-app/style_share_2/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1164:10)
+    at Module.load (internal/modules/cjs/loader.js:993:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:892:14)
+    at Module.require (internal/modules/cjs/loader.js:1033:19)
+    at require (/Users/winston/Desktop/style-share-app/style_share_2/node_modules/v8-compile-cache/v8-compile-cache.js:161:20)
+    at WEBPACK_OPTIONS (/Users/winston/Desktop/style-share-app/style_share_2/node_modules/webpack-cli/bin/utils/convert-argv.js:114:13)
+    at requireConfig (/Users/winston/Desktop/style-share-app/style_share_2/node_modules/webpack-cli/bin/utils/convert-argv.js:116:6)
+    at /Users/winston/Desktop/style-share-app/style_share_2/node_modules/webpack-cli/bin/utils/convert-argv.js:123:17
+    at Array.forEach (<anonymous>)
+    at module.exports (/Users/winston/Desktop/style-share-app/style_share_2/node_modules/webpack-cli/bin/utils/convert-argv.js:121:15)
+    at /Users/winston/Desktop/style-share-app/style_share_2/node_modules/webpack-cli/bin/cli.js:71:45
+    at Object.parse (/Users/winston/Desktop/style-share-app/style_share_2/node_modules/webpack-cli/node_modules/yargs/yargs.js:567:18)
+    at /Users/winston/Desktop/style-share-app/style_share_2/node_modules/webpack-cli/bin/cli.js:49:8
+    at Object.<anonymous> (/Users/winston/Desktop/style-share-app/style_share_2/node_modules/webpack-cli/bin/cli.js:366:3)
+    at Module._compile (internal/modules/cjs/loader.js:1144:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1164:10)
+    at Module.load (internal/modules/cjs/loader.js:993:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:892:14)
+    at Module.require (internal/modules/cjs/loader.js:1033:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/Users/winston/Desktop/style-share-app/style_share_2/node_modules/webpack/bin/webpack.js:156:2)
+
+Completed 200 OK in 4257ms (Views: 4248.6ms | ActiveRecord: 0.0ms | Allocations: 6737)
+
+
+Started GET "/" for ::1 at 2020-04-11 15:01:31 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 0.2ms | Allocations: 10)
+  Rendered pages/_canvas_model.html.erb (Duration: 5.5ms | Allocations: 340)
+  Rendered pages/show.html.erb within layouts/application (Duration: 7.5ms | Allocations: 399)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+/Users/winston/Desktop/style-share-app/style_share_2/node_modules/webpack-cli/bin/cli.js:93
+				throw err;
+				^
+
+ReferenceError: webpacker is not defined
+    at Object.<anonymous> (/Users/winston/Desktop/style-share-app/style_share_2/config/webpack/environment.js:3:9)
+    at Module._compile (/Users/winston/Desktop/style-share-app/style_share_2/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1164:10)
+    at Module.load (internal/modules/cjs/loader.js:993:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:892:14)
+    at Module.require (internal/modules/cjs/loader.js:1033:19)
+    at require (/Users/winston/Desktop/style-share-app/style_share_2/node_modules/v8-compile-cache/v8-compile-cache.js:161:20)
+    at Object.<anonymous> (/Users/winston/Desktop/style-share-app/style_share_2/config/webpack/development.js:3:21)
+    at Module._compile (/Users/winston/Desktop/style-share-app/style_share_2/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1164:10)
+    at Module.load (internal/modules/cjs/loader.js:993:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:892:14)
+    at Module.require (internal/modules/cjs/loader.js:1033:19)
+    at require (/Users/winston/Desktop/style-share-app/style_share_2/node_modules/v8-compile-cache/v8-compile-cache.js:161:20)
+    at WEBPACK_OPTIONS (/Users/winston/Desktop/style-share-app/style_share_2/node_modules/webpack-cli/bin/utils/convert-argv.js:114:13)
+    at requireConfig (/Users/winston/Desktop/style-share-app/style_share_2/node_modules/webpack-cli/bin/utils/convert-argv.js:116:6)
+    at /Users/winston/Desktop/style-share-app/style_share_2/node_modules/webpack-cli/bin/utils/convert-argv.js:123:17
+    at Array.forEach (<anonymous>)
+    at module.exports (/Users/winston/Desktop/style-share-app/style_share_2/node_modules/webpack-cli/bin/utils/convert-argv.js:121:15)
+    at /Users/winston/Desktop/style-share-app/style_share_2/node_modules/webpack-cli/bin/cli.js:71:45
+    at Object.parse (/Users/winston/Desktop/style-share-app/style_share_2/node_modules/webpack-cli/node_modules/yargs/yargs.js:567:18)
+    at /Users/winston/Desktop/style-share-app/style_share_2/node_modules/webpack-cli/bin/cli.js:49:8
+    at Object.<anonymous> (/Users/winston/Desktop/style-share-app/style_share_2/node_modules/webpack-cli/bin/cli.js:366:3)
+    at Module._compile (internal/modules/cjs/loader.js:1144:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1164:10)
+    at Module.load (internal/modules/cjs/loader.js:993:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:892:14)
+    at Module.require (internal/modules/cjs/loader.js:1033:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/Users/winston/Desktop/style-share-app/style_share_2/node_modules/webpack/bin/webpack.js:156:2)
+
+Completed 200 OK in 5828ms (Views: 5825.5ms | ActiveRecord: 0.0ms | Allocations: 6754)
+
+
+Started GET "/" for ::1 at 2020-04-11 15:02:12 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 0.3ms | Allocations: 10)
+  Rendered pages/_canvas_model.html.erb (Duration: 9.1ms | Allocations: 340)
+  Rendered pages/show.html.erb within layouts/application (Duration: 10.6ms | Allocations: 400)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+/Users/winston/Desktop/style-share-app/style_share_2/node_modules/webpack-cli/bin/cli.js:93
+				throw err;
+				^
+
+ReferenceError: webpack is not defined
+    at Object.<anonymous> (/Users/winston/Desktop/style-share-app/style_share_2/config/webpack/environment.js:3:9)
+    at Module._compile (/Users/winston/Desktop/style-share-app/style_share_2/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1164:10)
+    at Module.load (internal/modules/cjs/loader.js:993:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:892:14)
+    at Module.require (internal/modules/cjs/loader.js:1033:19)
+    at require (/Users/winston/Desktop/style-share-app/style_share_2/node_modules/v8-compile-cache/v8-compile-cache.js:161:20)
+    at Object.<anonymous> (/Users/winston/Desktop/style-share-app/style_share_2/config/webpack/development.js:3:21)
+    at Module._compile (/Users/winston/Desktop/style-share-app/style_share_2/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1164:10)
+    at Module.load (internal/modules/cjs/loader.js:993:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:892:14)
+    at Module.require (internal/modules/cjs/loader.js:1033:19)
+    at require (/Users/winston/Desktop/style-share-app/style_share_2/node_modules/v8-compile-cache/v8-compile-cache.js:161:20)
+    at WEBPACK_OPTIONS (/Users/winston/Desktop/style-share-app/style_share_2/node_modules/webpack-cli/bin/utils/convert-argv.js:114:13)
+    at requireConfig (/Users/winston/Desktop/style-share-app/style_share_2/node_modules/webpack-cli/bin/utils/convert-argv.js:116:6)
+    at /Users/winston/Desktop/style-share-app/style_share_2/node_modules/webpack-cli/bin/utils/convert-argv.js:123:17
+    at Array.forEach (<anonymous>)
+    at module.exports (/Users/winston/Desktop/style-share-app/style_share_2/node_modules/webpack-cli/bin/utils/convert-argv.js:121:15)
+    at /Users/winston/Desktop/style-share-app/style_share_2/node_modules/webpack-cli/bin/cli.js:71:45
+    at Object.parse (/Users/winston/Desktop/style-share-app/style_share_2/node_modules/webpack-cli/node_modules/yargs/yargs.js:567:18)
+    at /Users/winston/Desktop/style-share-app/style_share_2/node_modules/webpack-cli/bin/cli.js:49:8
+    at Object.<anonymous> (/Users/winston/Desktop/style-share-app/style_share_2/node_modules/webpack-cli/bin/cli.js:366:3)
+    at Module._compile (internal/modules/cjs/loader.js:1144:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1164:10)
+    at Module.load (internal/modules/cjs/loader.js:993:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:892:14)
+    at Module.require (internal/modules/cjs/loader.js:1033:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/Users/winston/Desktop/style-share-app/style_share_2/node_modules/webpack/bin/webpack.js:156:2)
+
+Completed 200 OK in 7189ms (Views: 7172.7ms | ActiveRecord: 0.0ms | Allocations: 6755)
+
+
+Started GET "/" for ::1 at 2020-04-11 15:03:33 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 0.3ms | Allocations: 10)
+  Rendered pages/_canvas_model.html.erb (Duration: 7.7ms | Allocations: 340)
+  Rendered pages/show.html.erb within layouts/application (Duration: 8.9ms | Allocations: 399)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/winston/Desktop/style-share-app/style_share_2/public/packs
+[Webpacker] Hash: 8622701886da634f327a
+Version: webpack 4.42.1
+Time: 6082ms
+Built at: 04/11/2020 3:03:46 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-b1cd1b1071523e084b77.js    433 KiB  application  [emitted] [immutable]  application
+js/application-b1cd1b1071523e084b77.js.map    506 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-b1cd1b1071523e084b77.js js/application-b1cd1b1071523e084b77.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 807 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 4 hidden modules
+
+Completed 200 OK in 12507ms (Views: 12499.2ms | ActiveRecord: 0.0ms | Allocations: 6840)
+
+
+Started GET "/" for ::1 at 2020-04-11 15:04:52 -0400
+  [1m[35m (2.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 0.5ms | Allocations: 150)
+  Rendered pages/_canvas_model.html.erb (Duration: 6.9ms | Allocations: 973)
+  Rendered pages/show.html.erb within layouts/application (Duration: 11.4ms | Allocations: 1376)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 253ms (Views: 240.4ms | ActiveRecord: 0.0ms | Allocations: 11943)
+
+
+Started GET "/" for ::1 at 2020-04-11 15:11:56 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 0.2ms | Allocations: 10)
+  Rendered pages/_canvas_model.html.erb (Duration: 10.5ms | Allocations: 341)
+  Rendered pages/show.html.erb within layouts/application (Duration: 11.5ms | Allocations: 401)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/winston/Desktop/style-share-app/style_share_2/public/packs
+[Webpacker] Hash: 52699613056a1e35506e
+Version: webpack 4.42.1
+Time: 22933ms
+Built at: 04/11/2020 3:12:25 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-a79874d5bab3f16e6e8a.js   4.17 MiB  application  [emitted] [immutable]  application
+js/application-a79874d5bab3f16e6e8a.js.map   4.85 MiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-a79874d5bab3f16e6e8a.js js/application-a79874d5bab3f16e6e8a.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 809 bytes {application} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 5 hidden modules
+
+Completed 200 OK in 28959ms (Views: 28936.8ms | ActiveRecord: 0.0ms | Allocations: 6932)
+
+
+Started POST "/pages/show" for ::1 at 2020-04-11 15:13:36 -0400
+Processing by PagesController#update as HTML
+  Parameters: {"authenticity_token"=>"lseSjru4TayrQQe1uXfMmNyUpBom/e8O+SUzw75Rhbb3CmbUVVQ4q4Yx+6J1O4wraB9YTMnyjg/+MCtK0fy6qA==", "resolution"=>{"res_string"=>"800x600"}, "commit"=>"Change"}
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 0.4ms | Allocations: 10)
+  Rendered pages/_canvas_model.html.erb (Duration: 23.8ms | Allocations: 336)
+  Rendered pages/show.html.erb within layouts/application (Duration: 25.7ms | Allocations: 395)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 256ms (Views: 220.4ms | ActiveRecord: 0.0ms | Allocations: 5716)
+
+
+Started GET "/pages/show" for ::1 at 2020-04-11 15:14:43 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 0.1ms | Allocations: 10)
+  Rendered pages/_canvas_model.html.erb (Duration: 42.8ms | Allocations: 351)
+  Rendered pages/show.html.erb within layouts/application (Duration: 47.4ms | Allocations: 411)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 383ms (Views: 366.0ms | ActiveRecord: 0.0ms | Allocations: 5734)
+
+
+Started GET "/pages/show" for ::1 at 2020-04-11 15:24:33 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 0.1ms | Allocations: 10)
+  Rendered pages/_canvas_model.html.erb (Duration: 11.3ms | Allocations: 340)
+  Rendered pages/show.html.erb within layouts/application (Duration: 12.4ms | Allocations: 399)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 4a16e4e986c390d4bd0d
+Version: webpack 4.42.1
+Time: 8153ms
+Built at: 04/11/2020 3:24:48 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-7b37c1ee24b855a76198.js   4.17 MiB  application  [emitted] [immutable]  application
+js/application-7b37c1ee24b855a76198.js.map   4.85 MiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-7b37c1ee24b855a76198.js js/application-7b37c1ee24b855a76198.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 809 bytes {application} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 5 hidden modules
+
+ERROR in ./app/javascript/packs/application.js
+Module not found: Error: Can't resolve 'jquery_ujs' in '/Users/winston/Desktop/style-share-app/style_share_2/app/javascript/packs'
+ @ ./app/javascript/packs/application.js 15:0-21
+
+Completed 200 OK in 14752ms (Views: 14742.4ms | ActiveRecord: 0.0ms | Allocations: 6773)
+
+
+Started GET "/pages/show" for ::1 at 2020-04-11 15:25:44 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 0.2ms | Allocations: 10)
+  Rendered pages/_canvas_model.html.erb (Duration: 21.1ms | Allocations: 340)
+  Rendered pages/show.html.erb within layouts/application (Duration: 29.3ms | Allocations: 400)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/winston/Desktop/style-share-app/style_share_2/public/packs
+[Webpacker] Hash: 308f4eba6e9e18348260
+Version: webpack 4.42.1
+Time: 9511ms
+Built at: 04/11/2020 3:26:00 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-bd8577f8f2d344df1564.js    4.2 MiB  application  [emitted] [immutable]  application
+js/application-bd8577f8f2d344df1564.js.map   4.87 MiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-bd8577f8f2d344df1564.js js/application-bd8577f8f2d344df1564.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 809 bytes {application} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 6 hidden modules
+
+Completed 200 OK in 16718ms (Views: 16679.3ms | ActiveRecord: 0.0ms | Allocations: 6862)
+
+
+Started GET "/pages/show" for ::1 at 2020-04-11 15:28:25 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 0.2ms | Allocations: 10)
+  Rendered pages/_canvas_model.html.erb (Duration: 37.3ms | Allocations: 340)
+  Rendered pages/show.html.erb within layouts/application (Duration: 41.1ms | Allocations: 399)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 197ms (Views: 183.9ms | ActiveRecord: 0.0ms | Allocations: 5730)
+
+
+Started GET "/pages/show" for ::1 at 2020-04-11 15:42:55 -0400
+  [1m[35m (3.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 1.9ms | Allocations: 150)
+  Rendered pages/_canvas_model.html.erb (Duration: 19.4ms | Allocations: 973)
+  Rendered pages/show.html.erb within layouts/application (Duration: 24.4ms | Allocations: 1376)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 547ms (Views: 529.6ms | ActiveRecord: 0.0ms | Allocations: 17262)
+
+
+Started GET "/pages/show" for ::1 at 2020-04-11 15:45:37 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 0.2ms | Allocations: 10)
+  Rendered pages/_canvas_model.html.erb (Duration: 18.8ms | Allocations: 341)
+  Rendered pages/show.html.erb within layouts/application (Duration: 20.8ms | Allocations: 401)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/winston/Desktop/style-share-app/style_share_2/public/packs
+[Webpacker] Hash: b9d9419aa9cb85ba3595
+Version: webpack 4.42.1
+Time: 7546ms
+Built at: 04/11/2020 3:45:51 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-c848c662bd48a4e0b811.js    4.2 MiB  application  [emitted] [immutable]  application
+js/application-c848c662bd48a4e0b811.js.map   4.87 MiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-c848c662bd48a4e0b811.js js/application-c848c662bd48a4e0b811.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 839 bytes {application} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 6 hidden modules
+
+Completed 200 OK in 29614ms (Views: 29557.1ms | ActiveRecord: 0.0ms | Allocations: 6933)
+
+
+Started GET "/pages/show" for ::1 at 2020-04-11 15:47:29 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 1.5ms | Allocations: 10)
+  Rendered pages/_canvas_model.html.erb (Duration: 51.9ms | Allocations: 341)
+  Rendered pages/show.html.erb within layouts/application (Duration: 54.6ms | Allocations: 401)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/winston/Desktop/style-share-app/style_share_2/public/packs
+[Webpacker] Hash: 9d5e943d0c0e6cae08a9
+Version: webpack 4.42.1
+Time: 2915ms
+Built at: 04/11/2020 3:47:36 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-56614969629d83c34ac5.js    124 KiB  application  [emitted] [immutable]  application
+js/application-56614969629d83c34ac5.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-56614969629d83c34ac5.js js/application-56614969629d83c34ac5.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 836 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 7117ms (Views: 7108.3ms | ActiveRecord: 0.0ms | Allocations: 6820)
+
+
+Started GET "/pages/show" for ::1 at 2020-04-11 15:50:05 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 0.1ms | Allocations: 10)
+  Rendered pages/_canvas_model.html.erb (Duration: 1.6ms | Allocations: 340)
+  Rendered pages/show.html.erb within layouts/application (Duration: 1.9ms | Allocations: 399)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/winston/Desktop/style-share-app/style_share_2/public/packs
+[Webpacker] Hash: 033cc907ce48cf392861
+Version: webpack 4.42.1
+Time: 2199ms
+Built at: 04/11/2020 3:50:12 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-4ba55847e2b4d96065bc.js    146 KiB  application  [emitted] [immutable]  application
+js/application-4ba55847e2b4d96065bc.js.map    164 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-4ba55847e2b4d96065bc.js js/application-4ba55847e2b4d96065bc.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 838 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 4 hidden modules
+
+Completed 200 OK in 6670ms (Views: 6653.6ms | ActiveRecord: 0.0ms | Allocations: 6826)
+
+
+Started GET "/pages/show" for ::1 at 2020-04-11 15:50:53 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 0.1ms | Allocations: 10)
+  Rendered pages/_canvas_model.html.erb (Duration: 1.3ms | Allocations: 340)
+  Rendered pages/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 400)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/winston/Desktop/style-share-app/style_share_2/public/packs
+[Webpacker] Hash: 2934712f95c41aab66af
+Version: webpack 4.42.1
+Time: 4239ms
+Built at: 04/11/2020 3:51:02 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-ce3ab0eaa3e3e559ed50.js   3.87 MiB  application  [emitted] [immutable]  application
+js/application-ce3ab0eaa3e3e559ed50.js.map   4.49 MiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-ce3ab0eaa3e3e559ed50.js js/application-ce3ab0eaa3e3e559ed50.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 838 bytes {application} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 4 hidden modules
+
+Completed 200 OK in 8481ms (Views: 8478.3ms | ActiveRecord: 0.0ms | Allocations: 6849)
+
+
