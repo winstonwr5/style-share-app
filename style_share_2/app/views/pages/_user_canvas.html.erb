@@ -3,7 +3,8 @@
     begin = false;
 
     function setup() {
-        createCanvas(640,360);
+        let canvas = createCanvas(<%= @width %>,<%= @height %>).parent("#p5canvas");
+        $("#canvas-size").text(width + "x" + height);
     }
 
     function draw() {
@@ -16,7 +17,7 @@
     stroke(0,0,0);
     noFill();
     startForm();
-    for(let i = 0, i < points.length; i++){
+    for(let i = 0; i < points.length; i++){
         let x = points[i].x;
         let y = points[i].y;
 
