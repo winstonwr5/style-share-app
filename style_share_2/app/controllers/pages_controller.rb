@@ -21,4 +21,22 @@ class PagesController < ApplicationController
     render :show
   end
 
-end
+  def user_prompt
+      
+  end
+  #
+  # private
+
+    # def set_sketch
+    #   @sketch = Sketch.find(params[:id])
+    # end
+    #
+    # def sketch_params
+    #   params.require(:sketch).permit(:title, :description, :code)
+    # end
+    #
+    # def user_prompt_params
+    #   params.require(:prompt).permit(:title, :image)
+    # end
+
+  end

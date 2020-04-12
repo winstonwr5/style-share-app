@@ -48,4 +48,8 @@ class SketchesController < ApplicationController
       params.require(:sketch).permit(:title, :description, :code)
     end
 
+    def prompt_params
+      params.require(:prompt).permit(:title, :image)
+    end
+
 end

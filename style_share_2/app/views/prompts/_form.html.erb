@@ -1,0 +1,15 @@
+<%= form_for(@prompt) do |form| %>
+
+  <div class="sketch-form">
+      <%= form.label :image %>
+      <%= form.file_field :image %>
+  </div>
+
+  <div style="width: 640px; height: auto">
+      <%= image_tag(@prompt.image, style: "width: 100%") %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
