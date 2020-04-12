@@ -3974,3 +3974,253 @@ Processing by PagesController#show as HTML
 Completed 200 OK in 758ms (Views: 579.0ms | ActiveRecord: 0.0ms | Allocations: 11353)
 
 
+Started GET "/pages/show" for ::1 at 2020-04-12 17:28:36 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 0.2ms | Allocations: 10)
+  Rendered pages/_canvas_model.html.erb (Duration: 18.6ms | Allocations: 495)
+  Rendered pages/show.html.erb within layouts/application (Duration: 21.0ms | Allocations: 555)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1485ms (Views: 1471.9ms | ActiveRecord: 0.0ms | Allocations: 22038)
+
+
+Started GET "/pages/show" for ::1 at 2020-04-12 17:48:08 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 9.0ms | Allocations: 144)
+  Rendered pages/_canvas_model.html.erb (Duration: 39.9ms | Allocations: 1022)
+  Rendered pages/show.html.erb within layouts/application (Duration: 57.1ms | Allocations: 1307)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 694ms (Views: 669.2ms | ActiveRecord: 0.0ms | Allocations: 21431)
+
+
+Started GET "/pages/show" for ::1 at 2020-04-12 17:49:28 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 0.1ms | Allocations: 10)
+  Rendered pages/_canvas_model.html.erb (Duration: 8.0ms | Allocations: 495)
+  Rendered pages/show.html.erb within layouts/application (Duration: 10.0ms | Allocations: 554)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 97ms (Views: 90.7ms | ActiveRecord: 0.0ms | Allocations: 9490)
+
+
+Started GET "/pages/show" for ::1 at 2020-04-12 17:54:26 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 7.0ms | Allocations: 144)
+  Rendered pages/_canvas_model.html.erb (Duration: 29.4ms | Allocations: 1023)
+  Rendered pages/show.html.erb within layouts/application (Duration: 42.0ms | Allocations: 1313)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 342ms (Views: 320.8ms | ActiveRecord: 0.0ms | Allocations: 11279)
+
+
+Started GET "/pages/show" for ::1 at 2020-04-12 17:56:03 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 0.2ms | Allocations: 10)
+  Rendered pages/_canvas_model.html.erb (Duration: 27.0ms | Allocations: 495)
+  Rendered pages/show.html.erb within layouts/application (Duration: 30.0ms | Allocations: 554)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1063ms (Views: 1037.8ms | ActiveRecord: 0.0ms | Allocations: 17692)
+
+
+Started GET "/" for ::1 at 2020-04-12 17:56:13 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 0.3ms | Allocations: 10)
+  Rendered pages/_canvas_model.html.erb (Duration: 29.9ms | Allocations: 494)
+  Rendered pages/show.html.erb within layouts/application (Duration: 32.1ms | Allocations: 553)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 759ms (Views: 738.5ms | ActiveRecord: 0.0ms | Allocations: 9452)
+
+
+Started GET "/" for ::1 at 2020-04-12 17:56:29 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 0.7ms | Allocations: 10)
+  Rendered pages/_canvas_model.html.erb (Duration: 11.0ms | Allocations: 494)
+  Rendered pages/show.html.erb within layouts/application (Duration: 11.8ms | Allocations: 553)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 583ms (Views: 179.5ms | ActiveRecord: 0.0ms | Allocations: 9569)
+
+
+Started GET "/sketches" for ::1 at 2020-04-12 17:56:56 -0400
+Processing by SketchesController#index as HTML
+  Rendering sketches/index.html.erb within layouts/application
+  [1m[36mSketch Load (27.4ms)[0m  [1m[34mSELECT "sketches".* FROM "sketches"[0m
+  ↳ app/views/sketches/index.html.erb:4
+  Rendered collection of sketches/_sketch.html.erb [1 times] (Duration: 32.6ms | Allocations: 371)
+  Rendered sketches/index.html.erb within layouts/application (Duration: 267.7ms | Allocations: 3742)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 550ms (Views: 390.0ms | ActiveRecord: 93.8ms | Allocations: 13611)
+
+
+Started GET "/sketches/new" for ::1 at 2020-04-12 17:57:02 -0400
+Processing by SketchesController#new as HTML
+  Rendering sketches/new.html.erb within layouts/application
+  Rendered sketches/_form.html.erb (Duration: 109.1ms | Allocations: 2589)
+  Rendered sketches/new.html.erb within layouts/application (Duration: 112.2ms | Allocations: 2885)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 174ms (Views: 165.8ms | ActiveRecord: 0.0ms | Allocations: 11954)
+
+
+Started POST "/sketches" for ::1 at 2020-04-12 17:57:24 -0400
+Processing by SketchesController#create as HTML
+  Parameters: {"authenticity_token"=>"FSzjOmGkP44b6zeGWkwyRP4/6Ab8MR2jb4Kqe7899iK5F6Kq5SfG2yC5RKQNU0q7LT7DwiSk1Yo/+r2aTOvHFw==", "sketch"=>{"artist"=>"Hello", "description"=>"My sketch", "code"=>""}, "button"=>""}
+[31mUnpermitted parameter: :artist[0m
+  [1m[35m (1.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/sketches_controller.rb:14:in `create'
+  [1m[36mSketch Create (17.8ms)[0m  [1m[32mINSERT INTO "sketches" ("description", "code") VALUES ($1, $2) RETURNING "id"[0m  [["description", "My sketch"], ["code", ""]]
+  ↳ app/controllers/sketches_controller.rb:14:in `create'
+  [1m[35m (4.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/sketches_controller.rb:14:in `create'
+Redirected to http://localhost:3000/sketches/2
+Completed 302 Found in 121ms (ActiveRecord: 24.0ms | Allocations: 2678)
+
+
+Started GET "/sketches/2" for ::1 at 2020-04-12 17:57:24 -0400
+Processing by SketchesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mSketch Load (3.3ms)[0m  [1m[34mSELECT "sketches".* FROM "sketches" WHERE "sketches"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/sketches_controller.rb:44:in `set_sketch'
+  Rendering sketches/show.html.erb within layouts/application
+  Rendered sketches/show.html.erb within layouts/application (Duration: 3.4ms | Allocations: 283)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 85ms (Views: 40.1ms | ActiveRecord: 6.3ms | Allocations: 10232)
+
+
+Started GET "/sketches/2/edit" for ::1 at 2020-04-12 17:57:37 -0400
+Processing by SketchesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mSketch Load (0.9ms)[0m  [1m[34mSELECT "sketches".* FROM "sketches" WHERE "sketches"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/sketches_controller.rb:44:in `set_sketch'
+  Rendering sketches/edit.html.erb within layouts/application
+  Rendered sketches/_form.html.erb (Duration: 11.4ms | Allocations: 922)
+  Rendered sketches/edit.html.erb within layouts/application (Duration: 15.1ms | Allocations: 1078)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 92ms (Views: 72.6ms | ActiveRecord: 0.9ms | Allocations: 10726)
+
+
+Started GET "/sketches" for ::1 at 2020-04-12 18:01:50 -0400
+Processing by SketchesController#index as HTML
+  Rendering sketches/index.html.erb within layouts/application
+  [1m[36mSketch Load (2.9ms)[0m  [1m[34mSELECT "sketches".* FROM "sketches"[0m
+  ↳ app/views/sketches/index.html.erb:4
+  Rendered collection of sketches/_sketch.html.erb [2 times] (Duration: 8.3ms | Allocations: 230)
+  Rendered sketches/index.html.erb within layouts/application (Duration: 37.8ms | Allocations: 999)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 375ms (Views: 358.3ms | ActiveRecord: 2.9ms | Allocations: 10009)
+
+
+Started GET "/pages/show" for ::1 at 2020-04-12 18:01:53 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 0.1ms | Allocations: 10)
+  Rendered pages/_canvas_model.html.erb (Duration: 3.8ms | Allocations: 501)
+  Rendered pages/show.html.erb within layouts/application (Duration: 4.3ms | Allocations: 560)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 71ms (Views: 62.1ms | ActiveRecord: 0.0ms | Allocations: 9585)
+
+
+Started GET "/pages/show" for ::1 at 2020-04-12 18:01:57 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 0.1ms | Allocations: 10)
+  Rendered pages/_canvas_model.html.erb (Duration: 2.0ms | Allocations: 494)
+  Rendered pages/show.html.erb within layouts/application (Duration: 2.3ms | Allocations: 553)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 54ms (Views: 52.0ms | ActiveRecord: 0.0ms | Allocations: 9452)
+
+
+Started GET "/" for ::1 at 2020-04-12 18:02:15 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 0.1ms | Allocations: 10)
+  Rendered pages/_canvas_model.html.erb (Duration: 1.9ms | Allocations: 494)
+  Rendered pages/show.html.erb within layouts/application (Duration: 2.4ms | Allocations: 553)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 80ms (Views: 76.8ms | ActiveRecord: 0.0ms | Allocations: 9439)
+
+
+Started GET "/sketches" for ::1 at 2020-04-12 18:02:20 -0400
+Processing by SketchesController#index as HTML
+  Rendering sketches/index.html.erb within layouts/application
+  [1m[36mSketch Load (3.1ms)[0m  [1m[34mSELECT "sketches".* FROM "sketches"[0m
+  ↳ app/views/sketches/index.html.erb:4
+  Rendered collection of sketches/_sketch.html.erb [2 times] (Duration: 1.5ms | Allocations: 228)
+  Rendered sketches/index.html.erb within layouts/application (Duration: 8.7ms | Allocations: 990)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 92ms (Views: 87.9ms | ActiveRecord: 3.1ms | Allocations: 9909)
+
+
+Started GET "/sketches" for ::1 at 2020-04-12 18:03:35 -0400
+Processing by SketchesController#index as HTML
+  Rendering sketches/index.html.erb within layouts/application
+  [1m[36mSketch Load (5.0ms)[0m  [1m[34mSELECT "sketches".* FROM "sketches"[0m
+  ↳ app/views/sketches/index.html.erb:4
+  Rendered collection of sketches/_sketch.html.erb [2 times] (Duration: 3.3ms | Allocations: 228)
+  Rendered sketches/index.html.erb within layouts/application (Duration: 11.3ms | Allocations: 988)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 108ms (Views: 101.5ms | ActiveRecord: 5.0ms | Allocations: 9889)
+
+
+Started GET "/sketches/new" for ::1 at 2020-04-12 18:04:17 -0400
+Processing by SketchesController#new as HTML
+  Rendering sketches/new.html.erb within layouts/application
+  Rendered sketches/_form.html.erb (Duration: 16.1ms | Allocations: 851)
+  Rendered sketches/new.html.erb within layouts/application (Duration: 16.9ms | Allocations: 911)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 81ms (Views: 77.8ms | ActiveRecord: 0.0ms | Allocations: 9924)
+
+
+Started GET "/sketches" for ::1 at 2020-04-12 18:08:59 -0400
+Processing by SketchesController#index as HTML
+  Rendering sketches/index.html.erb within layouts/application
+  [1m[36mSketch Load (2.6ms)[0m  [1m[34mSELECT "sketches".* FROM "sketches"[0m
+  ↳ app/views/sketches/index.html.erb:4
+  Rendered collection of sketches/_sketch.html.erb [2 times] (Duration: 9.2ms | Allocations: 228)
+  Rendered sketches/index.html.erb within layouts/application (Duration: 36.5ms | Allocations: 989)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 143ms (Views: 124.6ms | ActiveRecord: 2.6ms | Allocations: 10005)
+
+
+Started GET "/pages/show" for ::1 at 2020-04-12 18:09:14 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 0.1ms | Allocations: 10)
+  Rendered pages/_canvas_model.html.erb (Duration: 5.4ms | Allocations: 494)
+  Rendered pages/show.html.erb within layouts/application (Duration: 6.1ms | Allocations: 553)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 53ms (Views: 50.3ms | ActiveRecord: 0.0ms | Allocations: 9559)
+
+
+Started GET "/" for ::1 at 2020-04-12 18:09:44 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 1.9ms | Allocations: 10)
+  Rendered pages/_canvas_model.html.erb (Duration: 22.9ms | Allocations: 494)
+  Rendered pages/show.html.erb within layouts/application (Duration: 26.7ms | Allocations: 553)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 161ms (Views: 150.9ms | ActiveRecord: 0.0ms | Allocations: 9463)
+
+
+Started GET "/sketches" for ::1 at 2020-04-12 18:09:59 -0400
+Processing by SketchesController#index as HTML
+  Rendering sketches/index.html.erb within layouts/application
+  [1m[36mSketch Load (0.5ms)[0m  [1m[34mSELECT "sketches".* FROM "sketches"[0m
+  ↳ app/views/sketches/index.html.erb:4
+  Rendered collection of sketches/_sketch.html.erb [2 times] (Duration: 1.3ms | Allocations: 228)
+  Rendered sketches/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 988)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 52ms (Views: 50.4ms | ActiveRecord: 0.5ms | Allocations: 9894)
+
+
+Started GET "/sketches/new" for ::1 at 2020-04-12 18:10:02 -0400
+Processing by SketchesController#new as HTML
+  Rendering sketches/new.html.erb within layouts/application
+  Rendered sketches/_form.html.erb (Duration: 10.4ms | Allocations: 851)
+  Rendered sketches/new.html.erb within layouts/application (Duration: 12.4ms | Allocations: 911)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 71ms (Views: 69.5ms | ActiveRecord: 0.0ms | Allocations: 9824)
+
+

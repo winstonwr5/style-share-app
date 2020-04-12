@@ -5,9 +5,10 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'p5' %>
-    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    
     <script
     src="https://code.jquery.com/jquery-3.4.1.min.js"
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
@@ -17,13 +18,14 @@
   <body>
       <section id="navbar">
       <div class="navbar-top">
-        <div class="navbar-brand">
+        <div class="navbar area">
            <h1><%= link_to "StyleShare", sketches_path %></h1>
         </div>
-        <div class="navbar-links">
+        <div class="navbar-links" id="navigation">
           <ul>
             <li><%= link_to "Sample Sketch", root_path %></li>
           </ul>
+          <button data-collapse data-target="#navigation" class="toggle" <span class="icon"></span></button>
         </div>
       </div>
     </section>
