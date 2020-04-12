@@ -5,10 +5,13 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
-    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'p5' %>
-
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.js"></script> -->
   </head>
 
   <body>
@@ -28,6 +31,44 @@
     <section class="main-container">
         <%= yield %>
     </section>
+    <!-- <script>
+        points = [];
+        begin = false;
+        console.log($("#navbar"));
+        function setup() {
+            let canvas = createCanvas(<%= @width %>,<%= @height %>).parent("#p5canvas");
+            $("#canvas-size").text(width + "x" + height);
 
+            background(255,255,255);
+        }
+
+        function draw(){
+
+
+            if(begin){
+                points.push(createVector(mouseX, mouseY));
+        }
+
+        stroke(0,0,0);
+        noFill();
+        beginShape();
+        for(let i = 0; i < points.length; i++){
+            let x = points[i].x;
+            let y = points[i].y;
+
+            vertex(x, y);
+        }
+            endShape();
+        }
+
+        function mousePressed(){
+            begin = true;
+            points = [];
+        }
+
+        function mouseReleased(){
+            start = false;
+        }
+    </script> -->
   </body>
 </html>
