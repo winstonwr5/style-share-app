@@ -4802,3 +4802,301 @@ Processing by PagesController#show as HTML
 Completed 200 OK in 654ms (Views: 642.3ms | ActiveRecord: 0.0ms | Allocations: 20560)
 
 
+Started GET "/pages/show" for ::1 at 2020-04-12 22:06:57 -0400
+  [1m[35m (14.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 2.9ms | Allocations: 147)
+  Rendered pages/_canvas_model.html.erb (Duration: 71.8ms | Allocations: 1350)
+  Rendered pages/show.html.erb within layouts/application (Duration: 116.0ms | Allocations: 1760)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 947ms (Views: 933.3ms | ActiveRecord: 0.0ms | Allocations: 42720)
+
+
+Started GET "/pages/show" for ::1 at 2020-04-12 22:08:52 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 0.2ms | Allocations: 10)
+  Rendered pages/_canvas_model.html.erb (Duration: 13.8ms | Allocations: 495)
+  Rendered pages/show.html.erb within layouts/application (Duration: 15.6ms | Allocations: 555)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 160ms (Views: 146.4ms | ActiveRecord: 0.0ms | Allocations: 9608)
+
+
+Started GET "/pages/show" for ::1 at 2020-04-12 22:09:38 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 0.1ms | Allocations: 10)
+  Rendered pages/_canvas_model.html.erb (Duration: 9.9ms | Allocations: 494)
+  Rendered pages/show.html.erb within layouts/application (Duration: 10.5ms | Allocations: 554)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 521ms (Views: 514.9ms | ActiveRecord: 0.0ms | Allocations: 21632)
+
+
+Started GET "/pages/show" for ::1 at 2020-04-12 22:11:31 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 0.1ms | Allocations: 10)
+  Rendered pages/_canvas_model.html.erb (Duration: 231.6ms | Allocations: 497)
+  Rendered pages/show.html.erb within layouts/application (Duration: 238.0ms | Allocations: 557)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1557ms (Views: 1532.8ms | ActiveRecord: 0.0ms | Allocations: 20964)
+
+
+Started GET "/pages/show" for ::1 at 2020-04-12 22:13:17 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 0.2ms | Allocations: 10)
+  Rendered pages/_canvas_model.html.erb (Duration: 27.0ms | Allocations: 494)
+  Rendered pages/show.html.erb within layouts/application (Duration: 28.6ms | Allocations: 554)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 532ms (Views: 505.2ms | ActiveRecord: 0.0ms | Allocations: 21368)
+
+
+Started GET "/pages/show" for ::1 at 2020-04-12 22:14:56 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 0.2ms | Allocations: 10)
+  Rendered pages/_canvas_model.html.erb (Duration: 14.0ms | Allocations: 494)
+  Rendered pages/show.html.erb within layouts/application (Duration: 16.9ms | Allocations: 553)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 751ms (Views: 736.9ms | ActiveRecord: 0.0ms | Allocations: 21371)
+
+
+Started GET "/pages/show" for ::1 at 2020-04-12 22:15:17 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 0.2ms | Allocations: 10)
+  Rendered pages/_canvas_model.html.erb (Duration: 13.9ms | Allocations: 494)
+  Rendered pages/show.html.erb within layouts/application (Duration: 18.0ms | Allocations: 553)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1629ms (Views: 1486.3ms | ActiveRecord: 0.0ms | Allocations: 21850)
+
+
+Started GET "/pages/show" for ::1 at 2020-04-12 22:15:48 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 0.3ms | Allocations: 10)
+  Rendered pages/_canvas_model.html.erb (Duration: 281.8ms | Allocations: 498)
+  Rendered pages/show.html.erb within layouts/application (Duration: 283.9ms | Allocations: 557)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 652ms (Views: 633.3ms | ActiveRecord: 0.0ms | Allocations: 9513)
+
+
+Started GET "/pages/show" for ::1 at 2020-04-12 22:20:16 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_canvas_model.html.erb (Duration: 186.3ms | Allocations: 3714)
+  Rendered pages/show.html.erb within layouts/application (Duration: 220.3ms | Allocations: 4009)
+Completed 500 Internal Server Error in 287ms (ActiveRecord: 0.0ms | Allocations: 5217)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 3, expected 1..2)):
+    4: 
+    5:     <div class="sketch-form">
+    6:     <%= form_for :resolution, url: pages_show_path do |form| %>
+    7:     <%= form.file_field(:post, :image, accept: 'image/png,image/gif,image/jpeg') %>
+    8:     <%# <%= render :partial => 'prompts/form' %>
+    9:     <% end %>
+   10:     </div>
+  
+app/views/pages/_canvas_model.html.erb:7
+app/views/pages/_canvas_model.html.erb:6
+app/views/pages/show.html.erb:3
+Started GET "/pages/show" for ::1 at 2020-04-12 22:43:08 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 19.8ms | Allocations: 1470)
+Completed 500 Internal Server Error in 63ms (ActiveRecord: 0.0ms | Allocations: 2687)
+
+
+  
+ActionView::Template::Error (undefined method `image' for nil:NilClass):
+    1: <% if @page.image.attached? %>
+    2: 
+    3:   <p>
+    4:     <strong>Image:</strong>
+  
+app/views/pages/show.html.erb:1
+Started GET "/pages/show" for ::1 at 2020-04-12 22:45:01 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 9.9ms | Allocations: 1323)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms | Allocations: 1945)
+
+
+  
+ActionView::Template::Error (undefined method `image' for nil:NilClass):
+    1: <% if @page.image.attached? %>
+    2: 
+    3:   <p>
+    4:     <strong>Image:</strong>
+  
+app/views/pages/show.html.erb:1
+Started GET "/pages/show" for ::1 at 2020-04-12 22:50:12 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 9.4ms | Allocations: 1455)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms | Allocations: 2663)
+
+
+  
+ActionView::Template::Error (undefined method `image' for nil:NilClass):
+    1: <% if @page.image.attached? %>
+    2: 
+    3:   <p>
+    4:     <strong>Image:</strong>
+  
+app/views/pages/show.html.erb:1
+Started GET "/pages/show" for ::1 at 2020-04-12 22:52:05 -0400
+Processing by PagesController#show as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1071)
+
+
+  
+NoMethodError (undefined method `image' for nil:NilClass):
+  
+app/controllers/pages_controller.rb:6:in `show'
+Started GET "/pages/show" for ::1 at 2020-04-12 22:53:15 -0400
+Processing by PagesController#show as HTML
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 1070)
+
+
+  
+NoMethodError (undefined method `image' for nil:NilClass):
+  
+app/controllers/pages_controller.rb:6:in `show'
+Started GET "/pages/show" for ::1 at 2020-04-12 22:53:20 -0400
+Processing by PagesController#show as HTML
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 1103)
+
+
+  
+NoMethodError (undefined method `image' for nil:NilClass):
+  
+app/controllers/pages_controller.rb:6:in `show'
+Started GET "/pages/show" for ::1 at 2020-04-12 23:04:33 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (Duration: 11.9ms | Allocations: 1455)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.0ms | Allocations: 2662)
+
+
+  
+ActionView::Template::Error (undefined method `image' for nil:NilClass):
+    1: <% if @page.image.attached? %>
+    2: 
+    3:   <p>
+    4:     <strong>Image:</strong>
+  
+app/views/pages/show.html.erb:1
+Started GET "/pages/show" for ::1 at 2020-04-12 23:04:52 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_canvas_model.html.erb (Duration: 19.3ms | Allocations: 1946)
+  Rendered pages/show.html.erb within layouts/application (Duration: 23.9ms | Allocations: 2233)
+Completed 500 Internal Server Error in 35ms (ActiveRecord: 0.0ms | Allocations: 3434)
+
+
+  
+ActionView::Template::Error (Missing partial pages/_form, application/_form with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/Users/winston/Desktop/style-share-app/style_share_2/app/views"
+  * "/Users/winston/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actiontext-6.0.2.2/app/views"
+  * "/Users/winston/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionmailbox-6.0.2.2/app/views"
+):
+    3:     <h2>Enter Your Prompt Pic:</h2>
+    4: 
+    5:     <div class="sketch-form">
+    6:         <% render 'form' %>
+    7:     <%# <%= form_for :resolution, url: pages_show_path do |form| %>
+    8:     <%# <%= form.file_field(:post, :image, accept: 'image/png,image/gif,image/jpeg') %> %> %>
+    9:     <%# <%= render :partial => 'prompts/form' %>
+  
+app/views/pages/_canvas_model.html.erb:6
+app/views/pages/show.html.erb:3
+Started GET "/pages/show" for ::1 at 2020-04-12 23:05:25 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 8.7ms | Allocations: 147)
+  Rendered pages/_canvas_model.html.erb (Duration: 63.4ms | Allocations: 1032)
+  Rendered pages/show.html.erb within layouts/application (Duration: 67.0ms | Allocations: 1317)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 216ms (Views: 213.4ms | ActiveRecord: 0.0ms | Allocations: 11442)
+
+
+Started GET "/sketches" for ::1 at 2020-04-12 23:06:39 -0400
+Processing by SketchesController#index as HTML
+  Rendering sketches/index.html.erb within layouts/application
+  [1m[36mSketch Load (15.1ms)[0m  [1m[34mSELECT "sketches".* FROM "sketches"[0m
+  ↳ app/views/sketches/index.html.erb:4
+  Rendered collection of sketches/_sketch.html.erb [2 times] (Duration: 9.4ms | Allocations: 478)
+  Rendered sketches/index.html.erb within layouts/application (Duration: 146.1ms | Allocations: 3849)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 263ms (Views: 154.7ms | ActiveRecord: 78.0ms | Allocations: 13699)
+
+
+Started GET "/sketches/new" for ::1 at 2020-04-12 23:07:17 -0400
+Processing by SketchesController#new as HTML
+  Rendering sketches/new.html.erb within layouts/application
+  Rendered sketches/_form.html.erb (Duration: 115.2ms | Allocations: 4876)
+  Rendered sketches/new.html.erb within layouts/application (Duration: 118.0ms | Allocations: 5172)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 169ms (Views: 158.5ms | ActiveRecord: 0.0ms | Allocations: 14160)
+
+
+Started GET "/sketches/2/edit" for ::1 at 2020-04-12 23:07:51 -0400
+Processing by SketchesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mSketch Load (3.0ms)[0m  [1m[34mSELECT "sketches".* FROM "sketches" WHERE "sketches"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/sketches_controller.rb:44:in `set_sketch'
+  Rendering sketches/edit.html.erb within layouts/application
+  Rendered sketches/_form.html.erb (Duration: 10.5ms | Allocations: 922)
+  Rendered sketches/edit.html.erb within layouts/application (Duration: 14.4ms | Allocations: 1078)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 213ms (Views: 70.1ms | ActiveRecord: 3.4ms | Allocations: 12890)
+
+
+Started GET "/sketches" for ::1 at 2020-04-12 23:08:34 -0400
+Processing by SketchesController#index as HTML
+  Rendering sketches/index.html.erb within layouts/application
+  [1m[36mSketch Load (1.3ms)[0m  [1m[34mSELECT "sketches".* FROM "sketches"[0m
+  ↳ app/views/sketches/index.html.erb:4
+  Rendered collection of sketches/_sketch.html.erb [2 times] (Duration: 1.7ms | Allocations: 230)
+  Rendered sketches/index.html.erb within layouts/application (Duration: 6.3ms | Allocations: 991)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 250ms (Views: 247.0ms | ActiveRecord: 1.3ms | Allocations: 21382)
+
+
+Started GET "/sketches" for ::1 at 2020-04-12 23:08:41 -0400
+Processing by SketchesController#index as HTML
+  Rendering sketches/index.html.erb within layouts/application
+  [1m[36mSketch Load (0.9ms)[0m  [1m[34mSELECT "sketches".* FROM "sketches"[0m
+  ↳ app/views/sketches/index.html.erb:4
+  Rendered collection of sketches/_sketch.html.erb [2 times] (Duration: 3.4ms | Allocations: 228)
+  Rendered sketches/index.html.erb within layouts/application (Duration: 9.2ms | Allocations: 988)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 66ms (Views: 62.1ms | ActiveRecord: 0.9ms | Allocations: 9907)
+
+
+Started GET "/sketches" for ::1 at 2020-04-12 23:10:31 -0400
+Processing by SketchesController#index as HTML
+  Rendering sketches/index.html.erb within layouts/application
+  [1m[36mSketch Load (1.4ms)[0m  [1m[34mSELECT "sketches".* FROM "sketches"[0m
+  ↳ app/views/sketches/index.html.erb:4
+  Rendered collection of sketches/_sketch.html.erb [2 times] (Duration: 0.7ms | Allocations: 228)
+  Rendered sketches/index.html.erb within layouts/application (Duration: 5.3ms | Allocations: 988)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 326ms (Views: 324.0ms | ActiveRecord: 1.4ms | Allocations: 22236)
+
+
+Started GET "/pages/show" for ::1 at 2020-04-12 23:10:55 -0400
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/_user_canvas.html.erb (Duration: 0.1ms | Allocations: 10)
+  Rendered pages/_canvas_model.html.erb (Duration: 10.3ms | Allocations: 501)
+  Rendered pages/show.html.erb within layouts/application (Duration: 10.8ms | Allocations: 560)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 99ms (Views: 94.5ms | ActiveRecord: 0.0ms | Allocations: 9486)
+
+

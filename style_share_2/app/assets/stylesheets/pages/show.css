@@ -1,7 +1,11 @@
 * {
-    font-family: "Roboto", "Arial", "sans-serif";
+    font-family: "Garamond", "Arial", "sans-serif";
     margin: 0;
     padding: 0;
+}
+
+.container {
+    color: #FFF5EE;
 }
 
 h3 {
@@ -40,6 +44,7 @@ flex {
     bottom: 1em;
 }
 .center-div {
+    color: #F5F5F5;
     text-align: center;
     margin: 0px 20px 40px 20px;
 }

@@ -22,7 +22,7 @@ class PagesController < ApplicationController
   end
 
   def user_prompt
-      
+
   end
   #
   # private

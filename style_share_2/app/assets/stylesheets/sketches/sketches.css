@@ -1,7 +1,12 @@
+* {
+    font-family: "Garamond", sans-serif;
+}
+
 body {
     background-image: url("background-banner-color-colours-945302.png");
     background-repeat: no-repeat;
     background-position: center;
+    height: 100vh;
 }
 
 .navbar-top {

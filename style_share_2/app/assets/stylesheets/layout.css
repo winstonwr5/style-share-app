@@ -1,3 +1,7 @@
+* {
+    font-family: "Garamond", sans-serif;
+}
+
 .navbar-top {
     display: flex;
     box-shadow: 0 .2em 5px #888;
