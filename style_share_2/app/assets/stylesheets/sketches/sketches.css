@@ -1,3 +1,9 @@
+body {
+    background-image: url("background-banner-color-colours-945302.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .navbar-top {
     display: flex;
     box-shadow: 0 .2em 5px #888;
@@ -14,10 +20,11 @@
 
 .navbar-links {
     display: inline-block;
+    color: #FFF5EE;
 }
 
 .navbar-top a {
     display: block;
-    color: #444;
+    color: #FFF5EE;
     text-decoration: none;
 }
